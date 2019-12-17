@@ -33,7 +33,7 @@ With {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}
 ## Supported version
 {: #mongodb_supported_version}
 
-{{site.data.keyword.ihsdbaas_mongodb_full}} currently supports {{site.data.keyword.mongodb}} EE 3.6.4. It provides a secure, up-to-date version of the {{site.data.keyword.mongodb}} Enterprise database. We upgrade database maintenance versions `major.minor.maintenance` when appropriate.
+{{site.data.keyword.ihsdbaas_mongodb_full}} currently supports {{site.data.keyword.mongodb}} EE 3.6. It provides a secure, up-to-date version of the {{site.data.keyword.mongodb}} Enterprise database. We upgrade database maintenance versions `major.minor.maintenance` when appropriate.
 
 For more information about versions, see [{{site.data.keyword.mongodb}} support policy](https://www.mongodb.com/support-policy){: external}.
 
@@ -85,7 +85,7 @@ You can use the mongo shell, your favorite {{site.data.keyword.mongodb}} driver,
 ### Before you begin
 {: #accessing-database-introduction-byb}
 
-The tool you use needs to be compatible with MongoDB EE 3.6.4 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}.
+The tool you use needs to be compatible with MongoDB EE 3.6 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}.
 
 To enable verification of the server certificate during database connection, download a certificate authority (CA) file from the **Overview** page of the service dashboard, and copy it to the appropriate directory.
 

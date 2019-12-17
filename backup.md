@@ -31,7 +31,7 @@ If you want to increase your disaster recovery capabilities by making cross-regi
 ## Before you begin
 {: #backup_mongodb_before_begin}
 
-To use the {{site.data.keyword.mongodb}} commands to complete the backup, you need to download and install {{site.data.keyword.mongodb}} of the version compatible with {{site.data.keyword.mongodb}} EE 3.6.4 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}. For more information, see [{{site.data.keyword.mongodb}} website](https://docs.mongodb.com/manual/installation/){: external}.
+To use the {{site.data.keyword.mongodb}} commands to complete the backup, you need to download and install {{site.data.keyword.mongodb}} of the version compatible with {{site.data.keyword.mongodb}} EE 3.6 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}. For more information, see [{{site.data.keyword.mongodb}} website](https://docs.mongodb.com/manual/installation/){: external}.
 
 ## Step 1: Create a dump file for backing up the original databases
 {: #step1_create_dump_file_backup_mongodb}
