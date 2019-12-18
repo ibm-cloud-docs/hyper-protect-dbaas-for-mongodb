@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-12-18"
+lastupdated: "2019-12-20"
 
 keywords: Hyper Protect DBaaS, mongo database, data security, cloud database
 
@@ -34,8 +34,6 @@ With {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}
 {: #mongodb_supported_version}
 
 {{site.data.keyword.ihsdbaas_mongodb_full}} currently supports {{site.data.keyword.mongodb}} EE 3.6. It provides a secure, up-to-date version of the {{site.data.keyword.mongodb}} Enterprise database. We upgrade database maintenance versions `major.minor.maintenance` when appropriate.
-
-For more information about versions, see [{{site.data.keyword.mongodb}} support policy](https://www.mongodb.com/support-policy){: external}.
 
 ## Prerequisite
 {: #prerequisite}
@@ -92,7 +90,9 @@ To enable verification of the server certificate during database connection, dow
 #### Using mongo shell
 {: #accessing-database-introduction-connect-mongoshell}
 
-To use the [mongo shell](https://docs.mongodb.com/manual/reference/program/mongo/index.html){: external} to connect to your databases, run the following command. You can copy the commmand from the service dashboard.
+[Download the mongo shell](https://www.mongodb.com/download-center/enterprise){: external} as part of the MongoDB Server or as a standalone package. To check whether the version is compatible with MongoDB EE 3.6 supported by {{site.data.keyword.ihsdbaas_mongodb_full}}, see [{{site.data.keyword.mongodb}} Release Notes](https://docs.mongodb.com/manual/release-notes/){: external}.
+
+To use the mongo shell to connect to your databases, run the following command. You can copy the commmand from the service dashboard. For more information about the mongo shell, see [mongo](https://docs.mongodb.com/manual/reference/program/mongo/index.html){: external}. 
 
 ```
 # mongo 'mongodb://<host_name_1>:<port_1>,\
@@ -131,7 +131,7 @@ To use the [mongo shell](https://docs.mongodb.com/manual/reference/program/mongo
 #### Using MongoDB Compass or other tools
 {: #accessing-database-introduction-connect-mongodb-compass}
 
-For other tools, such as {{site.data.keyword.mongodb}} Compass, {{site.data.keyword.ihsdbaas_mongodb_full}} supports *SSL server certificate validation* to connect to the host. If needed, use the CA file from the service dashboard.
+For other tools, such as [{{site.data.keyword.mongodb}} Compass](https://docs.mongodb.com/compass/master/install/){: external}, {{site.data.keyword.ihsdbaas_mongodb_full}} supports *SSL server certificate validation* to connect to the host. If needed, use the CA file from the service dashboard.
 
 For example, to use MongoDB Compass to connect to your databases, complete the following steps:
 

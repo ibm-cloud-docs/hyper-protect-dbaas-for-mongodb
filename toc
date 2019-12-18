@@ -50,6 +50,7 @@ IBM Cloud Hyper Protect DBaaS for MongoDB
     hpcrypto-byok.md
     key-protect-byok.md
     at_events.md
+    open-source-licenses.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
