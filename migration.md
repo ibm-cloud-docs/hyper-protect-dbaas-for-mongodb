@@ -92,7 +92,7 @@ The following table explains the parameters that are used in the command.
 |*dump_file_path*|The path of the folder containing dump files you created in [Step 1](#step1_create_dump_file), that is, *dump_path/database_name*. You can use relative or absolute paths.|my_dump_path/my_database|
 {: caption="Table 2. Parameters that are needed to restore the data from a dump file"}
 
-User your database client to create new users.
+Use your database client to create new users.
 {: tip}
 
 For {{site.data.keyword.mongodb}}, the migration merges the original data into the target cluster rather than overwriting the existing data if any. You can refer to the [detailed explanation](https://docs.mongodb.com/manual/reference/program/mongorestore/#insert-only){: external} of this feature in the {{site.data.keyword.mongodb}} website. You can also see [{{site.data.keyword.mongodb}} documentation](https://docs.mongodb.com/manual/reference/program/mongorestore/){: external} for more information about the `mongorestore` utility.
