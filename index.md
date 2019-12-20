@@ -61,11 +61,11 @@ Free plans are available. They are designed for evaluation purposes and are not 
 Each {{site.data.keyword.ihsdbaas_mongodb_full}} cluster contains a DBaaS Manager, which manages and intelligently schedules your requests based on the available resources.
 
 In a database cluster, you can:
-- View information about nodes
 - View information about databases
 - View information about users
-- Monitor databases
+- View information about nodes
 - View service logs
+- Monitor databases
 
 You can send the requests to the DBaaS Manager through one of the following interfaces:
 
@@ -73,7 +73,7 @@ You can send the requests to the DBaaS Manager through one of the following inte
 - The [CLI plug-in with the {{site.data.keyword.cloud_notm}} CLI tool](/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-install-dbaas-cli-plugin)
 - The [{{site.data.keyword.ihsdbaas_full}} RESTful APIs](https://{DomainName}/apidocs/hyperp-dbaas){: external}
 
-To manage your nodes, databases and users, use your database client.
+To manage your databases and database users, use your database client.
 
 ## Step 3: Connecting to databases
 {: #accessing-database-introduction}
@@ -92,7 +92,7 @@ To enable verification of the server certificate during database connection, dow
 
 [Download the mongo shell](https://www.mongodb.com/download-center/enterprise){: external} as part of the MongoDB Server or as a standalone package. To check whether the version is compatible with MongoDB EE 3.6 supported by {{site.data.keyword.ihsdbaas_mongodb_full}}, see [{{site.data.keyword.mongodb}} Release Notes](https://docs.mongodb.com/manual/release-notes/){: external}.
 
-To use the mongo shell to connect to your databases, run the following command. You can copy the commmand from the service dashboard. For more information about the mongo shell, see [mongo](https://docs.mongodb.com/manual/reference/program/mongo/index.html){: external}. 
+To use the mongo shell to connect to your databases, run the following command. You can copy the commmand from the service dashboard. For more information about the mongo shell, see [mongo](https://docs.mongodb.com/manual/reference/program/mongo/index.html){: external}.
 
 ```
 # mongo 'mongodb://<host_name_1>:<port_1>,\

@@ -50,16 +50,16 @@ You can create and manage your {{site.data.keyword.cloud}} {{site.data.keyword.i
 
 1. In the {{site.data.keyword.cloud_notm}} dashboard, click **View resources** on the **Resource summary** pane, or click **Resource List** in the upper left corner, to display all your resources.
 2. Click the service instance on the **Resource list** to display the service dashboard.
-3. On the **Overview** page, you can see the overall information of the service instance.
-4. Select **Nodes** in the side navigation pane to view the detailed information of each node.
+3. On the **Overview** page, you can see the overall information and connection information of the service instance.
+4. Select **Databases**, **Users**, or **Nodes** in the side navigation pane to view the more information. Select **Logging** or **Monitoring** to enable and view logs and metrics of the databases.
 
 ## Managing a service instance
 {: #dbaas_webui_manage_service}
 
- With the required access, you can rename, delete, add tags to, and export the access report of a service instance.
+With the required access, you can re-name, delete, add tags to, and export the access report of a service instance.
 
 1. In the {{site.data.keyword.cloud_notm}} dashboard, go to the **Resource list** page.
 2. Expand **Services**. Find the target service instance and click the overflow icon.
-3. Select the action that you want to complete. 
+3. Select the action that you want to complete.
 
 To assign access to other users or services to use your service instance, see [Identity and Access Management roles and actions](/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-iam).
