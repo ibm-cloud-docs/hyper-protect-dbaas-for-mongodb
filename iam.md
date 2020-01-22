@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-10-23"
+lastupdated: "2019-12-20"
 
 keywords: IAM, identity, access management, role
 
@@ -23,48 +23,45 @@ subcollection: hyper-protect-dbaas-for-mongodb
 # Identity and Access Management roles and actions
 {: #iam}
 
-Access to {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}} service instances is controlled by {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM). Every user or service that accesses the {{site.data.keyword.ihsdbaas_mongodb_full}} service in your account must be assigned an access policy with an IAM role defined. The policy determines what actions a user or service can perform within the context of the service instance that you select. The allowable actions are customized and defined by {{site.data.keyword.ihsdbaas_mongodb_full}} as operations that are allowed to be performed on the service. The actions are then mapped to IAM roles.
+As the owner of your {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}} service instance, you can assign access to other users or services to use your service instance.
 {: shortdesc}
 
-Two types of IAM roles can be assigned: platform management roles and service access roles. The following documentation focuses on service access roles defined by {{site.data.keyword.ihsdbaas_mongodb_full}}. For information about platform management roles, see [Platform management roles](/docs/iam?topic=iam-userroles#platformroles). For more information about IAM access, see [IAM sccess](/docs/iam?topic=iam-userroles).
+Access to {{site.data.keyword.ihsdbaas_mongodb_full}} service instances is controlled by {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM). Every user or service that accesses the {{site.data.keyword.ihsdbaas_mongodb_full}} service in your account must be assigned an access policy with an IAM role defined. The policy determines what actions a user or service can perform within the context of the service instance that you select. The allowable actions are customized and defined by {{site.data.keyword.ihsdbaas_mongodb_full}} as operations that are allowed to be performed on the service. The actions are then mapped to IAM roles.
+
+Two types of IAM roles can be assigned: platform management roles and service access roles. The following documentation focuses on service access roles defined by {{site.data.keyword.ihsdbaas_mongodb_full}}. For information about platform management roles, see [Platform management roles](/docs/iam?topic=iam-userroles#platformroles). For more information about IAM access, see [IAM access](/docs/iam?topic=iam-userroles).
 
 ## IAM service access roles
 {: #service-access-roles}
 
 The following tables outline what actions each service access role allows for the {{site.data.keyword.ihsdbaas_mongodb_full}} service.
 
-| Service access role | Action description |
+| Service Access Role | Action Description |
 | --- |--- |
-| Reader | Show cluster<br>List DB user<br>Show DB user<br>List DB<br>List DB logs |
-| Writer | Show cluster<br>List DB user<br>Show DB user<br>List DB<br>List DB logs<br>Enable DBA logging<br>Enable DBA Monitoring<br>Create DB user<br>Delete DB user<br>Create DB<br>Delete DB<br> |
-| Manager | Show cluster<br>List DB user<br>Show DB user<br>List DB<br>List DB logs<br>Enable DBA logging<br>Enable DBA Monitoring<br>Create DB user<br>Delete DB user<br>Create DB<br>Delete DB<br>Stop instance<br>Start instance<br>Restart instance<br>Get DB log |
-{: caption="Table 1. IAM service access roles and actions}}"}
+| Reader | Get DB cluster details<br>List DB users<br>Get DB user details<br>List DBs<br>List DB log files |
+| Writer | Get DB cluster details<br>List DB users<br>Get DB user details<br>List DBs<br>List DB log files<br>Enable DB logging<br>Enable DB Monitoring<br> |
+| Manager | Get DB cluster details<br>List DB users<br>Get DB user details<br>List DBs<br>List DB log files<br>Enable DB logging<br>Enable DB Monitoring<br>Download a DB log file |
+{: caption="Table 1. IAM service access roles and actions" caption-side="top"}
 
-| Action description | Action |
+| Action Description | Action |
 | --- | --- |
-| Show cluster | hyperp-dbaas-mongodb.clusters.read |
-| Enable DBA logging | hyperp-dbaas-mongodb.logging.enable |
-| Enable DBA Monitoring| hyperp-dbaas-mongodb.monitoring.enable |
-| Create DB user | hyperp-dbaas-mongodb.users.create |
-| Delete DB user | hyperp-dbaas-mongodb.users.delete |
-| List DB user | hyperp-dbaas-mongodb.users.list |
-| Show DB user | hyperp-dbaas-mongodb.users.read |
-| Create DB | hyperp-dbaas-mongodb.databases.create |
-| Delete DB | hyperp-dbaas-mongodb.databases.delete |
-| List DB | hyperp-dbaas-mongodb.databases.list |
-| Stop instance | hyperp-dbaas-mongodb.instances.stop |
-| Start instance | hyperp-dbaas-mongodb.instances.start |
-| Restart instance | hyperp-dbaas-mongodb.instances.restart |
-| List DB logs | hyperp-dbaas-mongodb.logs.list |
-| Get DB log | hyperp-dbaas-mongodb.logs.read |
-{: caption="Table 1. IAM service access actions" caption-side="top"}
+| Get DB cluster details | hyperp-dbaas-mongodb.clusters.read |
+| Enable DB logging | hyperp-dbaas-mongodb.logging.enable |
+| Enable DB Monitoring| hyperp-dbaas-mongodb.monitoring.enable |
+| List DB users | hyperp-dbaas-mongodb.users.list |
+| Get DB user details | hyperp-dbaas-mongodb.users.read |
+| List DBs | hyperp-dbaas-mongodb.databases.list |
+| List DB log files | hyperp-dbaas-mongodb.logs.list |
+| Download a DB log file | hyperp-dbaas-mongodb.logs.read |
+{: caption="Table 2. IAM service access actions" caption-side="top"}
 
 ## Difference between IAM service access and database user privileges
 {: #compare-IAM-dbuser-access}
 
-IAM service access applies to {{site.data.keyword.ihsdbaas_mongodb_full}} service instances. It manages the authorization of the service APIs. Database user privileges (as you see on the **Users** tab in the service dashbaord) apply to databases within your database cluster.
+IAM service access applies to {{site.data.keyword.ihsdbaas_mongodb_full}} service instances. It manages the authorization of the service APIs. Database user privileges (as you see on the **Users** page in the service dashboard) apply to databases within your database cluster.
 
 ## Managing access
 {: #manage-access}
 
 For detailed instructions on managing access to users or services, see [Managing access to resources](/docs/iam?topic=iam-iammanidaccser) or [Managing service ID access policies](/docs/iam?topic=iam-serviceidpolicy). To organize a set of users and service IDs into a single entity that makes it easy for you to assign access, see [Setting up access groups](/docs/iam?topic=iam-groups#create_ag).
+
+Expect a maximum ten-minute interval before the IAM authorization change is refreshed.
