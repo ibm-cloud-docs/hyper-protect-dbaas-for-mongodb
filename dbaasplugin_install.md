@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2019
+  years: 2019, 2020
 lastupdated: "2020-01-21"
 
 keywords: DBaaS CLI, Python runtime
@@ -183,4 +183,4 @@ To access a complete set of DBaaS commands when you use the {{site.data.keyword.
 
    The system displays `dbaas` in the list of available commands.
 
-For more information about DBaaS CLI plug-in commands, see [DBaaS CLI reference](/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin).
+For more information about DBaaS CLI plug-in commands, see [DBaaS CLI reference](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin).

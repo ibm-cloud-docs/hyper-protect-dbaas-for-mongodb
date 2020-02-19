@@ -72,4 +72,4 @@ Before {{site.data.keyword.ihsdbaas_mongodb_full}} provides a long term solution
 {: #getting-help}
 {: troubleshoot}
 
-If you still have problems with using {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}, see [Getting help and support](/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-getting-help-and-support).
+If you still have problems with using {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}, see [Getting help and support](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-getting-help-and-support).

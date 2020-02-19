@@ -3,7 +3,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="hyper-protect-dbaas-for-mongodb" audience="service" arm="3917562" href="/docs/services/hyper-protect-dbaas-for-mongodb/index.html" path="services/hyper-protect-dbaas-for-mongodb"}
+{: .toc subcollection="hyper-protect-dbaas-for-mongodb" category="databases" audience="service" href="/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted" path="hyper-protect-dbaas-for-mongodb"}
 IBM Cloud Hyper Protect DBaaS for MongoDB
 
     {: .navgroup id="learn"}
@@ -44,13 +44,15 @@ IBM Cloud Hyper Protect DBaaS for MongoDB
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [IBM Cloud Hyper Protect DBaaS RESTful APIs](https://{DomainName}/apidocs/hyperp-dbaas)
+    [IBM Cloud Hyper Protect DBaaS RESTful APIs](/apidocs/hyperp-dbaas)
     dbaas_cli.md
     iam.md
     hpcrypto-byok.md
     key-protect-byok.md
+    [Video: IBM Cloud Hyper Protect DBaaS and Bring Your Own Key](https://youtu.be/DwD_PFXjROM)
     at_events.md
     open-source-licenses.md
+    reference-related-links.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
