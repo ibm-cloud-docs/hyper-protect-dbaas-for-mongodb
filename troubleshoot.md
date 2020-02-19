@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-02-14"
+lastupdated: "2020-02-12"
 
 keywords: troubleshoot, troubleshooting, can't get cluster id, Unable to obtain plug-in’s metadata, cannot connect from Hyper Protect Virtual Servers, get help
 
@@ -72,4 +72,4 @@ Before {{site.data.keyword.ihsdbaas_mongodb_full}} provides a long term solution
 {: #getting-help}
 {: troubleshoot}
 
-If you still have problems with using {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}, see [Getting help and support](/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-getting-help-and-support).
+If you still have problems with using {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}, see [Getting help and support](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-getting-help-and-support).

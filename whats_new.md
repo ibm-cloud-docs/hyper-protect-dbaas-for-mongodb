@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-12-20"
+  years: 2019, 2020
+lastupdated: "2020-02-19"
 
-keywords: release note, new
+keywords: release note, new, added, changed, deleted
 
 subcollection: hyper-protect-dbaas-for-mongodb
 
@@ -19,8 +19,21 @@ subcollection: hyper-protect-dbaas-for-mongodb
 Stay up to date with the new features that are available for {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}.
 {: shortdesc}
 
+## 19 February 2020
+{: #Feb-2020}
+
+### Added: Known issue on connection errors from {{site.data.keyword.cloud_notm}} {{site.data.keyword.hpvs}} within the same region
+{: #added-hpvs-connection-error}
+
+It's currently not supported to connect to an instance of {{site.data.keyword.ihsdbaas_mongodb_full}} from your application that is running in an instance of {{site.data.keyword.hpvs}} within the same {{site.data.keyword.cloud_notm}} region. For more information, see [Failed to connect from {{site.data.keyword.hpvs}} within the same region](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-troubleshoot#troubleshoot-hpvs-connection) in Troubleshooting.
+
+### Added: Related links topic under REFERENCE section
+{: #added-related-links}
+
+[Related links](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links) topic lists more resources to help you learn about securing data and resources with {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS.
+
 ## 20 December 2019
-{: #Dec-2019} 
+{: #Dec-2019}
 
 ### Added: Role-based authorization with {{site.data.keyword.cloud_notm}} Identity and Access Management
 {: #added-iam-integration}
@@ -48,7 +61,7 @@ To enhance security, use your database client to manage databases and database u
 Python 3 (instead of Python 2) components are required to access a complete set of DBaaS commands when you use the {{site.data.keyword.cloud_notm}} CLI.
 
 ## 23 September 2019
-{: #Sep23-2019} 
+{: #Sep23-2019}
 
 ### Added: Sending logs to {{site.data.keyword.la_full_notm}}
 {: #added-logging}
@@ -66,7 +79,7 @@ You can create {{site.data.keyword.ihsdbaas_mongodb_full}} resources in the Sydn
 You can use your {{site.data.keyword.cloudaccesstrailshort}} instance in Frankfurt to view events of your {{site.data.keyword.ihsdbaas_mongodb_full}} instance in Frankfurt.
 
 ## 13 September 2019
-{: #Sep13-2019} 
+{: #Sep13-2019}
 
 ### Added: Free plans are available
 {: #free-plans}
@@ -91,4 +104,4 @@ You can create {{site.data.keyword.ihsdbaas_mongodb_full}} resources in the Fran
 
 {{site.data.keyword.IBM_notm}} hosts your databases in a highly available and secure environment.
 
-For more information, see [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted).
+For more information, see [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted).
