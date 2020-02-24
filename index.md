@@ -32,7 +32,7 @@ With {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}
 
 Watch the following video to find how to get started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}:
 
-<iframe width="737" height="415" src="https://youtu.be/YzQdszTI4Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="737" height="415" src="https://www.youtube.com/embed/YzQdszTI4Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Supported version
 {: #mongodb_supported_version}
