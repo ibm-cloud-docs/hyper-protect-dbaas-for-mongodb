@@ -10,6 +10,7 @@ IBM Cloud Hyper Protect DBaaS for MongoDB
     index.md
     overview.md
     whats_new.md
+    [IBM Redbook: Securing Your Critical Workloads with IBM Hyper Protect Services](http://www.redbooks.ibm.com/abstracts/sg248469.html?Open)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
