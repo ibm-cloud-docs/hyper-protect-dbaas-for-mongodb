@@ -43,7 +43,7 @@ You can create and manage your {{site.data.keyword.cloud}} {{site.data.keyword.i
   To even further strengthen security, it is suggested that you update the **database admin password** immediately after the service instance is provisioned. You need to follow the same rules that are previously mentioned to set the new password.
   {: note}
 
-  7. To connect to your databases, see [Connecting to databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#accessing-database-introduction).
+7. To connect to your databases, see [Connecting to databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#accessing-database-introduction).
 
 ## Viewing detailed information of a service instance
 {: #dbaas_webui_show_detail_service}
