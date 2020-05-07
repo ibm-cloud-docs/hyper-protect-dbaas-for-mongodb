@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-12-20"
+  years: 2019, 2020
+lastupdated: "2020-04-15"
 
 keywords: migrate, restore
 
@@ -64,7 +64,7 @@ You can get most of the information from the cluster URI. The format of the URI 
 Before you restore the data, you need to create a new {{site.data.keyword.ihsdbaas_mongodb_full}} service instance as the target database cluster. You can use one of the following ways to create a new instance:
 - [The web user interface](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_webui_service#dbaas_webui_create_service)
 - [The CLI plug-in with the {{site.data.keyword.cloud_notm}} CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_create_service)
-- [The {{site.data.keyword.ihsdbaas_full}} RESTful APIs](/apidocs/hyperp-dbaas){: external}
+- [The {{site.data.keyword.ihsdbaas_full}} RESTful APIs](/apidocs/hyperp-dbaas/hyperp-dbaas-v1){: external}
 
 When you create the new service instance, you need to set the cluster name, the administrator name, and password. They are not necessarily to be the same as the ones in the original instance. It doesn't affect the migration. After the migration is completed, the databases are assigned to the new administrator/authentication database.
 
