@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-27"
+lastupdated: "2020-05-18"
 
 keywords: Hyper Protect DBaaS, mongo database, data security, cloud database
 
@@ -18,7 +18,10 @@ subcollection: hyper-protect-dbaas-for-mongodb
 {:tip: .tip}
 {:pre: .pre}
 {:note: .note}
+{:term: .term}
 {:external: target="_blank" .external}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}
 {: #gettingstarted}
@@ -26,13 +29,13 @@ subcollection: hyper-protect-dbaas-for-mongodb
 {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} is an {{site.data.keyword.cloud_notm}} service that provides tamper-proof, enterprise cloud database environments with high availability for workloads with sensitive data. It offers a flexible platform that allows you to quickly and easily provision and manage your database of choice.
 {: shortdesc}
 
-This {{site.data.keyword.cloud_notm}} offering provides {{site.data.keyword.mongodb}} database clusters. Each database cluster has one primary node and two secondary nodes (replicas that back up the primary).
+This {{site.data.keyword.cloud_notm}} offering provides {{site.data.keyword.mongodb}} database clusters. Each database cluster has one primary node and two secondary nodes (replicas that back up the primary). For more information about high availability, see [Automatic in-region data redundancy and failover](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-ha-dr#in-region-redundancy-failover).
 
 With {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}, you can create database clusters in the {{site.data.keyword.cloud_notm}}, view information about your nodes, databases, and users, monitor databases, and view service logs.
 
 Watch the following video to find how to get started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}:
 
-<iframe width="737" height="415" src="https://www.youtube.com/embed/YzQdszTI4Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="737" height="415" src="https://www.youtube.com/embed/YzQdszTI4Zg" title="Getting started with Hyper Protect DBaaS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Supported version
 {: #mongodb_supported_version}
@@ -42,14 +45,16 @@ Watch the following video to find how to get started with {{site.data.keyword.cl
 ## Prerequisite
 {: #prerequisite}
 
-Before you start, make sure you are using the [required browser software](/docs/overview?topic=overview-prereqs-platform) for {{site.data.keyword.cloud_notm}}.
+Before you start, make sure you're using the [required browser software](/docs/overview?topic=overview-prereqs-platform) for {{site.data.keyword.cloud_notm}}.
 
 For Safari, ensure that the **Prevent cross-site tracking** and **Block all cookies** options under **Safari > Preferences > Privacy** are not selected.
 
-If you encounter problems using one of the required browsers, disable your browser plug-ins.
+If you encounter problems when you use one of the required browsers, disable your browser plug-ins.
 
-## Step 1: Creating a service instance
+## Step 1. Create a service instance
 {: #creating-a-database-cluster-introduction}
+{: help} 
+{: support}
 
 When you create a service instance, you create a database cluster (replica set) with one primary and two secondary nodes as replicas, as shown in the following diagram.
 
@@ -62,8 +67,10 @@ Free plans are available. They are designed for evaluation purposes and are not 
 You can select a root key that you create in {{site.data.keyword.hscrypto}} or {{site.data.keyword.keymanagementserviceshort}} only when you create the DBaaS instance. Otherwise, a randomly generated key will be used by default.
 {: note}
 
-##  Step 2: Managing the database cluster
+##  Step 2. Manage the database cluster
 {: #managing-database-cluster-introduction}
+{: help} 
+{: support}
 
 Each {{site.data.keyword.ihsdbaas_mongodb_full}} cluster contains a DBaaS Manager, which manages and intelligently schedules your requests based on the available resources.
 
@@ -82,17 +89,17 @@ You can send the requests to the DBaaS Manager through one of the following inte
 
 To manage your databases and database users, use your database client.
 
-## Step 3: Connecting to databases
+## Step 3. Connect to databases
 {: #accessing-database-introduction}
 
-You can use the mongo shell, your favorite {{site.data.keyword.mongodb}} driver, or tools like {{site.data.keyword.mongodb}} Compass to connect to your databases. {{site.data.keyword.ihsdbaas_mongodb_full}} allows only SSL-secured client connections.
+You can use the mongo shell, your favorite {{site.data.keyword.mongodb}} driver, or tools like {{site.data.keyword.mongodb}} Compass to connect to your databases. {{site.data.keyword.ihsdbaas_mongodb_full}} allows only [SSL](#x2038004){: term}-secured client connections. 
 
 ### Before you begin
 {: #accessing-database-introduction-byb}
 
-The tool you use needs to be compatible with MongoDB EE 3.6 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}.
+The tool that you use needs to be compatible with MongoDB EE 3.6 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}.
 
-To enable verification of the server certificate during database connection, download a certificate authority (CA) file from the **Overview** page of the service dashboard, and copy it to the appropriate directory.
+To enable verification of the server certificate during database connection, download a [certificate authority (CA)](#x2016383){: term} file from the **Overview** page of the service dashboard, and copy it to the appropriate directory.
 
 #### Using mongo shell
 {: #accessing-database-introduction-connect-mongoshell}
@@ -143,11 +150,11 @@ For other tools, such as [{{site.data.keyword.mongodb}} Compass](https://docs.mo
 For example, to use MongoDB Compass to connect to your databases, complete the following steps:
 
 1. Copy the cluster URL from the **Overview** page in the {{site.data.keyword.ihsdbaas_mongodb_full}} service dashboard.
-2. Open MongoDB Compass, which will use the URL from the clipboard to auto-populate the fields in the connection dialog.
+2. Open MongoDB Compass, which uses the URL from the clipboard to auto-populate the fields in the connection dialog.
 3. In the **Authentication** drop-down list, select **Username / Password** and enter your user name and password.
 4. Select **Server Validation** in the **SSL** field. Upload the certificate authority file you downloaded from the service dashboard, and click **CONNECT**.
 
-## Step 4 (Conditional): Migrating from {{site.data.keyword.mongodb}} databases
+## Step 4 (Conditional). Migrate from {{site.data.keyword.mongodb}} databases
 {: #migrating-from-mongodb}
 
 To migrate from {{site.data.keyword.mongodb}} databases to {{site.data.keyword.ihsdbaas_mongodb_full}}, follow the [migration instructions](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb).
