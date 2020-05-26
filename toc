@@ -37,12 +37,11 @@ IBM Cloud Hyper Protect DBaaS for MongoDB
     {: .topicgroup}
     Using the CLI
         dbaasplugin_install.md
-        choose_endpoint.md
         create_serv_inst.md
         delete_serv_inst.md
 
     {: .topicgroup}
-    Using the IBM Cloud Hyper Protect DBaaS RESTful APIs
+    Using the Hyper Protect DBaaS RESTful APIs
         api_auth.md
         api_genl_proc.md
 

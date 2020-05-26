@@ -52,7 +52,7 @@ You might receive the error **Unable to obtain plug-in’s metadata. Error: sign
 Either the installed Python version isn't correct (only Python 3.6.x is supported), or the `python-dev` isn't included in the installed python package.
 {: tsCauses}
 
-Make sure to download the python package from https://www.python.org/downloads/mac-osx/ and install Python again.
+Make sure to download and install the correct Python package from https://www.python.org/downloads/mac-osx/.
 {: tsResolve}
 
 ## Failed to connect from {{site.data.keyword.hpvs}} within the same region
