@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-19"
+lastupdated: "2020-05-25"
 
 keywords: Hyper Protect DBaaS, mongo database, responsibilities
 
@@ -34,10 +34,10 @@ Review the following sections for the specific responsibilities for you and for 
 
 | Task | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |----------|-----------------------|--------|
-|Backups and restore| {{site.data.keyword.ihsdbaas_full}} is responsible for making automatic daily backups, monitoring the state of customer backups, and restoring backup upon customer requests.| The Customer is responsible for [restoration request](/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-restore_mongodb_databases), timeliness, and validity of restored data. |
-|Monitoring| {{site.data.keyword.ihsdbaas_full}} is responsible for integrating monitoring and health services. | The Customer is responsible for setting up their service instances of [Monitoring](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas-webui-database-monitor), [Activity Tracker](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-activity-tracker-events), or [Logging services](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-sendlogs). |
-|High Availability| {{site.data.keyword.ihsdbaas_full}} is responsible for deploying databases across availability zones in a [Multi-Zone region](#x9774820){: term} and storing backups in local storage across availability zones. {{site.data.keyword.ihsdbaas_full}} provides replication, fail-over features, and infrastructure maintenance/updates. | The Customer is responsible for designing application logic to retry connections caused by temporary connection failures (during regular database maintenance and updates).|
-|Database performance | {{site.data.keyword.ihsdbaas_full}} is responsible for hosting and maintaining database infrastructure. | The Customer is responsible for the data model and performance, including tuning the data model, queries, and scaling the database as appropriate for application needs. |
+|Backups and restore| {{site.data.keyword.ihsdbaas_full}} is responsible for making automatic daily backups, monitoring the state of customer backups, and restoring backup upon customer requests.| The Customer is responsible for submitting the [restoration request](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-restore_mongodb_databases), timeliness, and validity of restored data. |
+|Monitoring| {{site.data.keyword.ihsdbaas_full}} is responsible for integrating monitoring and health services. | The Customer is responsible for setting up their service instances of [Monitoring]((/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas-webui-database-monitor), [Activity Tracker](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-activity-tracker-events), or [Logging services](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-sendlogs). |
+|High Availability| {{site.data.keyword.ihsdbaas_full}} is responsible for deploying databases across availability zones in a [Multi-Zone region (MZR)](#x9774820){: term} and storing backups in local storage across availability zones. {{site.data.keyword.ihsdbaas_full}} provides replication, fail-over features, and infrastructure maintenance and updates. | The Customer is responsible for designing application logic to retry connections caused by temporary connection failures (during regular database maintenance and updates).|
+|Database performance | {{site.data.keyword.ihsdbaas_full}} is responsible for hosting and maintaining database infrastructure. | The Customer is responsible for the data model and performance, including tuning the data model, queries, and scaling for application needs. |
 {: caption="Table 1. Responsibilities for incident and operations" caption-side="top"}
 
 ## Change management
@@ -62,5 +62,5 @@ Review the following sections for the specific responsibilities for you and for 
 
 | Task | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |----------|-----------------------|--------|
-|Backups|{{site.data.keyword.ihsdbaas_full}} is responsible for automatic backups and storing them in local storage across availability zones in a MZR. | If required, the Customer can define their own cross-region backup policy to create [cross-region data redundancy](/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-backup_mongodb_databases). |
+|Backups|{{site.data.keyword.ihsdbaas_full}} is responsible for automatic backups and storing them in local storage across availability zones in an MZR. | If required, the Customer can define their own cross-region backup policy to create [cross-region data redundancy](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-backup_mongodb_databases). |
 {: caption="Table 4. Responsibilities for disaster recovery" caption-side="top"}
