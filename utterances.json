@@ -1,0 +1,125 @@
+{
+  "troubleshoot-clusterid":[
+     "dbaas get cluster id failed",
+     "dbaas get cluster id failure",
+     "dbaas cannot get cluster id from cookie",
+     "dbaas can't get cluster id from cookie",
+     "enable browser cookie to get dbaas cluster id",
+     "enable safari cookie to get dbaas cluster id"
+   ],
+ "troubleshoot-cli-install-error":[
+    "unable to obtain plug-in’s metadata",
+    "error: signal: abort trap",
+    "install dbaas cli plugin error",
+    "install dbaas cli plug-in error",
+    "failed to install dbaas cli plugin",
+    "failed to install dbaas cli plug-in",
+    "failure install dbaas cli plugin",
+    "failure install dbaas cli plug-in"
+  ],
+  "whats-mongodb":[
+    "what is mongodb",
+    "what's dbaas mongodb",
+    "know about mongodb dbaas",
+    "mongodb definition",
+    "learn about mongodb"
+  ],
+  "why-mongodb-enterprise":[
+    "why use mongodb enterprise",
+    "why enterprise version of mongodb",
+	"use MongoDB Enterprise instead of MongoDB Community",
+	"use of community or enterprise for mongodb",  
+    "why not community version of mongodb",
+    "why not community of mongodb",
+    "why enterprise server of mongodb"
+  ],
+  "supported-databases":[
+    "dbaas support database types",
+	"database types does Hyper Protect DBaaS support",  
+    "dbaas supported database types",
+	"supported database types for dbaas",  
+    "what database types dbaas support",
+    "dbaas support postgresql",
+    "dbaas support mongodb"
+  ],
+  "whats-secure-service-container":[
+    "what is secure service container",
+    "what's secure service container",
+    "know about secure service container",
+    "how is secure service container used for dbaas",
+    "learn about secure service container and dbaas"
+  ],
+  "whats-pervasive-encryption":[
+    "what is pervasive encryption",
+    "what's pervasive encryption",
+    "know about pervasive encryption",
+	"how does dbaas use pervasive encryption",  
+    "pervasive encryption definition",
+    "learn about pervasive encryption"
+  ],
+  "hyper-protect-dbaas-difference":[
+    "dbaas difference from other cloud databases",
+    "dbaas value proposition",
+	"advantages to using dbaas database",  
+    "dbaas advantages",
+    "dbaas strengths",
+	"why use hyper protect dbaas",  
+    "dbaas how secure",
+    "dbaas security level"
+  ],
+  "keep-or-bring-your-own-key":[
+    "dbaas mongodb bring own key",
+    "dbaas mongodb own encryption key",
+    "hyper protect crypto and dbaas mongodb",
+	"own encryption keys for dbaas for mongodb",  
+    "dbaas mongodb manage encryption key",
+	"manage my data encryption keys for dbaas mongodb",
+	"data encryption for Hyper Protect DBaaS for MongoDB",  
+    "encryption key options for dbaas mongodb"
+  ],
+  "pricing-info":[
+    "where dbaas mongodb pricing",
+    "dbaas mongodb pricing information",
+    "find dbaas mongodb pricing",
+	"price of Hyper Protect DBaaS for MongoDB",
+	"how much does dbaas mongodb cost",
+	"cost of dbaas mongodb",  
+    "calculate dbaas mongodb pricing",
+    "know dbaas mongodb pricing"
+  ],
+  "protect-from-failure":[
+    "dbaas mongodb high availability",
+    "dbaas mongodb data redundancy",
+    "dbaas mongodb data failover",
+    "dbaas mongodb prevent data loss",
+	"high availability for dbaas mongodb",
+	"data loss prevention for Hyper Protect DBaaS for MongoDB",  
+    "dbaas mongodb protect data from hardware failure"
+  ],
+  "replication-by-default":[
+    "dbaas replicate to secondary nodes",
+    "dbaas replicate automaically",
+	"dbaas enable replication",
+    "dbaas replicate data",
+    "dbaas from primary node to secondary nodes"
+  ],
+  "automatic-backup":[
+    "dbaas mongodb back up automatically",
+    "dbaas mongodb automatic backup",
+	"DBaaS back up my data automatically",   
+    "dbaas mongodb in-region backup",
+    "dbaas mongodb backup in availability zones in a region",
+    "enable dbaas mongodb in-region backup"
+  ],
+  "metering-and-billing":[
+  "dbaas billing",
+  "dbaas billing information",
+  "billing information for Dbaas",
+  "find Hyper Protect DBaaS costs",
+  "dbaas usage",
+  "am i charged for dbaas",	  
+  "dbaas usage information",
+  "dbaas usage and billing"
+]
+}
+
