@@ -147,14 +147,15 @@ To use the mongo shell to connect to your databases, run the following command. 
 #### Using MongoDB Compass or other tools
 {: #accessing-database-introduction-connect-mongodb-compass}
 
-For other tools, such as [{{site.data.keyword.mongodb}} Compass](https://docs.mongodb.com/compass/master/install/){: external}, {{site.data.keyword.ihsdbaas_mongodb_full}} supports *SSL server certificate validation* to connect to the host. If needed, use the CA file from the service dashboard.
+For other tools, such as [{{site.data.keyword.mongodb}} Compass](https://docs.mongodb.com/compass/master/install/){: external}, {{site.data.keyword.ihsdbaas_mongodb_full}} supports *SSL server certificate validation* to connect to the host.
 
 For example, to use MongoDB Compass to connect to your databases, complete the following steps:
 
 1. Copy the cluster URL from the **Overview** page in the {{site.data.keyword.ihsdbaas_mongodb_full}} service dashboard.
-2. Open MongoDB Compass, which uses the URL from the clipboard to auto-populate the fields in the connection dialog.
-3. In the **Authentication** drop-down list, select **Username / Password** and enter your user name and password.
-4. Select **Server Validation** in the **SSL** field. Upload the certificate authority file you downloaded from the service dashboard, and click **CONNECT**.
+2. Open MongoDB Compass. On the **New Connection** page, paste the cluster URL.
+3. Click **Fill in connection fields individually**.
+4. For **Authentication**, select **Username / Password**. Enter your user name and password.
+5. Click the **More Options** tab. In the **SSL** field, select **Server Validation** . Upload the certificate authority file you downloaded from the service dashboard, and click **CONNECT**.
 
 ## Step 4 (Conditional). Migrate from {{site.data.keyword.mongodb}} databases
 {: #migrating-from-mongodb}
