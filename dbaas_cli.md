@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-05-21"
+lastupdated: "2020-06-23"
 
 keywords: instance commands, cluster resource, CLI plugin
 
@@ -62,7 +62,7 @@ ibmcloud dbaas cluster-show <resource_name>
 
 - *resource_name*
 
-  The name of the cluster resource. To find the resource name, use the {{site.data.keyword.cloud_notm}} command `ibmcloud resource service-instances`.
+  The name of the cluster. To find the resource name, use the {{site.data.keyword.cloud_notm}} command `ibmcloud resource service-instances`.
 
 ## Database command
 {: #db_cmds}
@@ -81,7 +81,7 @@ ibmcloud dbaas databases-list <resource_name>
 
 - *resource_name*
 
-  The name of the cluster resource.
+  The name of the cluster.
 
 ## Database User commands
 {: #user_cmds}
@@ -100,7 +100,7 @@ ibmcloud dbaas users-list <resource_name>
 
 - *resource_name*
 
-  The name of the cluster resource.
+  The name of the cluster.
 
 ### `ibmcloud dbaas user-show`
 {: #user_show}
@@ -116,7 +116,7 @@ ibmcloud dbaas user-show <resource_name> <auth_db.username>
 
 - *resource_name*
 
-  The name of the cluster resource.
+  The name of the cluster.
 
 - *auth_db.username*
 
@@ -136,16 +136,17 @@ To view the information about each node, use the [`cluster_show`](#cluster_show)
 This command downloads a log file from a node.
 
 ```
-ibmcloud dbaas log-get <resource_name> <instance_id> <filename>
+ibmcloud dbaas log-get <resource_name> <node_id> <filename>
 ```
 {: pre}
 
 **Command options**
 
 - *resource_name*
-  The name of the cluster resource.
+  
+  The name of the cluster.
 
-- *instance_id*
+- *node_id*
 
   The ID of the node.
 
@@ -159,7 +160,7 @@ ibmcloud dbaas log-get <resource_name> <instance_id> <filename>
 This command lists all the log files on a node. You can use any of the listed file names as input to the [ibmcloud dbaas log-get](#log_get) command.
 
 ```
-ibmcloud dbaas logs-list <resource_name> <instance_id>
+ibmcloud dbaas logs-list <resource_name> <node_id>
 ```
 {: pre}
 
@@ -167,8 +168,8 @@ ibmcloud dbaas logs-list <resource_name> <instance_id>
 
 - *resource_name*
 
-  The name of the cluster resource.
+  The name of the cluster.
 
-- *instance_id*
+- *node_id*
 
   The ID of the node.

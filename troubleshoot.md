@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-04-29"
+lastupdated: "2020-06-23"
 
 keywords: troubleshoot, troubleshooting, can't get cluster id, Unable to obtain plug-in’s metadata, cannot connect from Hyper Protect Virtual Servers, get help
 
@@ -53,22 +53,6 @@ Either the installed Python version isn't correct (only Python 3.6.x is supporte
 {: tsCauses}
 
 Make sure to download and install the correct Python package from https://www.python.org/downloads/mac-osx/.
-{: tsResolve}
-
-## Failed to connect from {{site.data.keyword.hpvs}} within the same region
-{: #troubleshoot-hpvs-connection}
-{: troubleshoot}
-
-You might receive a connection failed message or warnings on connections in your logs when you try to connect to an instance of {{site.data.keyword.ihsdbaas_mongodb_full}} from your application that is running in an instance of {{site.data.keyword.hpvs}} within the same {{site.data.keyword.cloud_notm}} region.
-{: troubleshoot}
-
-The {{site.data.keyword.ihsdbaas_mongodb_full}} connection string contains host names that are mapping to public IP addresses, which cannot be used to connect from within the same region.
-{: tsSymptoms}
-
-The domain names are resolved incorrectly to the public IP address, which cannot be used to connect from within the same region.
-{: tsCauses}
-
-Before {{site.data.keyword.ihsdbaas_mongodb_full}} provides a long-term solution, you can select different regions for your virtual servers and the MongoDB instances. For example, if your virtual servers are in `us-south` (Dallas), you need to create Hyper Protect DBaaS MongoDB instances in either `eu-de` (Frankfurt) or `au-syd` (Sydney).
 {: tsResolve}
 
 ## Getting help and support

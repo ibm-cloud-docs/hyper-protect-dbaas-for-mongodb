@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-02-19"
+lastupdated: "2020-06-23"
 
 keywords: release note, new, added, changed, deleted
 
@@ -19,13 +19,26 @@ subcollection: hyper-protect-dbaas-for-mongodb
 Stay up to date with the new features that are available for {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}.
 {: shortdesc}
 
+## 23 June 2020
+{: #June-2020}
+
+### Solved: Known issue on connection errors from {{site.data.keyword.cloud_notm}} {{site.data.keyword.hpvs}} within the same region
+{: #solved-hpvs-connection-error}
+
+The connection error with {{site.data.keyword.hpvs}} in the same region is solved.
+
+### Changed: `instance_id` is changed to `node_id`
+{: #cli-v2}
+
+`instance_id` is changed to `node_id` in commands.
+
 ## 19 February 2020
 {: #Feb-2020}
 
 ### Added: Known issue on connection errors from {{site.data.keyword.cloud_notm}} {{site.data.keyword.hpvs}} within the same region
 {: #added-hpvs-connection-error}
 
-It's currently not supported to connect to an instance of {{site.data.keyword.ihsdbaas_mongodb_full}} from your application that is running in an instance of {{site.data.keyword.hpvs}} within the same {{site.data.keyword.cloud_notm}} region. For more information, see [Failed to connect from {{site.data.keyword.hpvs}} within the same region](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-troubleshoot#troubleshoot-hpvs-connection) in Troubleshooting.
+It's currently not supported to connect to an instance of {{site.data.keyword.ihsdbaas_mongodb_full}} from your application that is running in an instance of {{site.data.keyword.hpvs}} within the same {{site.data.keyword.cloud_notm}} region.
 
 ### Added: Related links topic under REFERENCE section
 {: #added-related-links}
