@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-05-28"
+lastupdated: "2020-06-24"
 
 keywords: hyper protect dbaas, hyper protect dbaas for mongodb, mongodb, cloud database, data security, secure database, encrypted database
 
@@ -37,7 +37,7 @@ With {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}
 
 Watch the following video to find how to get started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}:
 
-<iframe width="737" height="415" src="https://www.youtube.com/embed/YzQdszTI4Zg" title="Getting started with Hyper Protect DBaaS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AdA-KFmjUQQ" title="Getting started with Hyper Protect DBaaS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Supported version
 {: #mongodb_supported_version}
