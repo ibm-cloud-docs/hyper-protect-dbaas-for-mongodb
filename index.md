@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-06-24"
+lastupdated: "2020-10-13"
 
 keywords: hyper protect dbaas, hyper protect dbaas for mongodb, mongodb, cloud database, data security, secure database, encrypted database
 
@@ -19,6 +19,7 @@ subcollection: hyper-protect-dbaas-for-mongodb
 {:pre: .pre}
 {:note: .note}
 {:term: .term}
+{:video: .video}
 {:external: target="_blank" .external}
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
@@ -37,21 +38,27 @@ With {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}
 
 Watch the following video to find how to get started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}:
 
-<iframe width="737" height="415" src="https://www.youtube.com/embed/AdA-KFmjUQQ" title="Getting started with Hyper Protect DBaaS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Getting started with Hyper Protect DBaaS](https://www.youtube.com/embed/AdA-KFmjUQQ){: video output="iframe" id="youtubeplayer" frameborder="0" width="560" height="315" webkitallowfullscreen mozallowfullscreen allowfullscreen}
 
 ## Supported version
 {: #mongodb_supported_version}
 
 {{site.data.keyword.ihsdbaas_mongodb_full}} currently supports {{site.data.keyword.mongodb}} EE 3.6. It provides a secure, up-to-date version of the {{site.data.keyword.mongodb}} Enterprise database. We upgrade database maintenance versions `major.minor.maintenance` when appropriate.
 
-## Prerequisite
+## Prerequisites
 {: #prerequisite}
 
-Before you start, make sure you're using the [required browser software](/docs/overview?topic=overview-prereqs-platform) for {{site.data.keyword.cloud_notm}}.
+1. To use the UI, make sure you're using the [required browser software](/docs/overview?topic=overview-prereqs-platform) for {{site.data.keyword.cloud_notm}}.
 
-For Safari, ensure that the **Prevent cross-site tracking** and **Block all cookies** options under **Safari > Preferences > Privacy** are not selected.
+  For Safari, ensure that the **Prevent cross-site tracking** and **Block all cookies** options under **Safari > Preferences > Privacy** are not selected.
 
-If you encounter problems when you use one of the required browsers, disable your browser plug-ins.
+  If you encounter problems when you use one of the required browsers, disable your browser plug-ins.
+
+2. You can create a 30-day free plan service instance with a Lite {{site.data.keyword.cloud_notm}} account. To create a paid service instance, make sure you have a [Pay-As-You-Go or Subscription {{site.data.keyword.cloud_notm}} account](/docs/account?topic=account-accounts).
+
+  To check your account type, go to [{{site.data.keyword.cloud_notm}}](https://cloud.ibm.com/){: external} and click **Management** > **Account** > **Account settings**.
+
+  If you have a Lite account and want to create a paid service instance, [upgrade your account to a Pay-As-You-Go or Subscription account](/docs/account?topic=account-upgrading-account).
 
 ## Step 1. Create a service instance
 {: #creating-a-database-cluster-introduction}
@@ -62,11 +69,9 @@ When you create a service instance, you create a cloud database cluster (replica
 
 ![A {{site.data.keyword.ihsdbaas_full}} service instance](images/cluster-node-db.svg "A {{site.data.keyword.ihsdbaas_full}} service instance with high availability"){: caption="Figure 1. A {{site.data.keyword.ihsdbaas_full}} service instance with high availability" caption-side="bottom"}
 
-If you haven't created a service instance yet, you can create one through [the web user interface](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_webui_service), [the CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_create_service), or [the {{site.data.keyword.ihsdbaas_full}} RESTful APIs](/apidocs/hyperp-dbaas/hyperp-dbaas-v2){: external}.
+You can create a service instance through the UI, the CLI, and the API. For more information and detailed instructions, see [Creating a service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service).
 
 Free plans are available. They are designed for evaluation purposes and are not suitable for production usage. If you create free-plan instances, note that they will be automatically deleted 30 days after creation.
-
-You can select a root key that you create in {{site.data.keyword.hscrypto}} or {{site.data.keyword.keymanagementserviceshort}} only when you create the DBaaS instance. Otherwise, a randomly generated key will be used by default.
 {: note}
 
 ##  Step 2. Manage the database cluster
@@ -77,17 +82,12 @@ You can select a root key that you create in {{site.data.keyword.hscrypto}} or {
 Each {{site.data.keyword.ihsdbaas_mongodb_full}} cluster contains a DBaaS Manager, which manages and intelligently schedules your requests based on the available resources.
 
 In a database cluster, you can:
-- View information about databases
-- View information about users
-- View information about nodes
+- View information about databases, users, and nodes
 - View service logs
 - Monitor databases
+- ...
 
-You can send the requests to the DBaaS Manager through one of the following interfaces:
-
-- [The web user interface](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_webui_service)
-- [The CLI plug-in with the {{site.data.keyword.cloud_notm}} CLI tool](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-install-dbaas-cli-plugin)
-- [The {{site.data.keyword.ihsdbaas_full}} RESTful APIs](/apidocs/hyperp-dbaas/hyperp-dbaas-v2){: external}
+You can send the requests to the DBaaS Manager through the UI, the CLI, and the API. For detailed instructions, see [Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service).
 
 To manage your databases and database users, use your database client.
 
@@ -101,7 +101,7 @@ You can use the mongo shell, your favorite {{site.data.keyword.mongodb}} driver,
 
 The tool that you use needs to be compatible with MongoDB EE 3.6 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}.
 
-To enable verification of the server certificate during database connection, download a [certificate authority (CA)](#x2016383){: term} file from the **Overview** page of the service dashboard, and copy it to the appropriate directory.
+To enable verification of the server certificate during database connection, download the [certificate authority (CA)](#x2016383){: term} file from the **Overview** page of the service dashboard, and copy it to the appropriate directory.
 
 #### Using mongo shell
 {: #accessing-database-introduction-connect-mongoshell}
