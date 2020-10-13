@@ -67,7 +67,5 @@ When you create a {{site.data.keyword.ihsdbaas_mongodb_full}} service instance, 
 {: #whats_next}
 
 - Follow the [getting started tutorial](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted) to try out the service for free.
-
 - For the compliance standards that {{site.data.keyword.ihsdbaas_mongodb_full}} follow, see [Compliance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-compliance).
-
 - Stay up to date with the latest features with [What's new](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new).
