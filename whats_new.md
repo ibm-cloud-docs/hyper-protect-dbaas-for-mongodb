@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-06-23"
+lastupdated: "2020-10-14"
 
 keywords: release note, new, added, changed, deleted
 
@@ -19,6 +19,24 @@ subcollection: hyper-protect-dbaas-for-mongodb
 Stay up to date with the new features that are available for {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}.
 {: shortdesc}
 
+## 14 October 2020
+{: #october-2020}
+
+### Added: Securing your connection
+{: #added-secure-connection}
+
+You can create a service instance with [private endpoints](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-service-connection) so that your database data will go over private routes.
+
+### Added: Managing access to multiple service instances
+{: #added-manage-multiple-instances}
+
+You can leverage [{{site.data.keyword.cloud_notm}} enterprises](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-iam#manage-multiple-instances) to manage resources in multiple accounts and user access.
+
+### Changed: Task documentation structure
+{: #changed-task-doc-reorg}
+
+For a task that can be completed in multiple interfaces (UI, CLI, or API), the instructions for different interfaces are incorporated in the same topic for the task.
+
 ## 23 June 2020
 {: #June-2020}
 
@@ -28,7 +46,7 @@ Stay up to date with the new features that are available for {{site.data.keyword
 The connection error with {{site.data.keyword.hpvs}} in the same region is solved.
 
 ### Changed: `instance_id` is changed to `node_id`
-{: #cli-v2}
+{: #changed-cli-v2}
 
 `instance_id` is changed to `node_id` in commands.
 
@@ -69,7 +87,7 @@ The major changes to the dashboard are navigation and renaming of terms. The new
 To enhance security, use your database client to manage databases and database users. The **Databases**, **Users**, and **Nodes** pages in the dashboard are read-only.
 
 ### Changed: Python components for using CLI
-{: #change-cli-python}
+{: #changed-cli-python}
 
 Python 3 (instead of Python 2) components are required to access a complete set of DBaaS commands when you use the {{site.data.keyword.cloud_notm}} CLI.
 
@@ -82,12 +100,12 @@ Python 3 (instead of Python 2) components are required to access a complete set 
 You can view logs of your {{site.data.keyword.ihsdbaas_mongodb_full}} instance in a configured {{site.data.keyword.loganalysisshort_notm}} instance.
 
 ### Added: {{site.data.keyword.ihsdbaas_mongodb_full}} expands into Sydney region
-{: #Sydney-region}
+{: #added-sydney-region}
 
 You can create {{site.data.keyword.ihsdbaas_mongodb_full}} resources in the Sydney region. To receive logs and events of your {{site.data.keyword.ihsdbaas_mongodb_full}} instance in Sydney, use {{site.data.keyword.cloud_notm}} {{site.data.keyword.loganalysisshort_notm}} and {{site.data.keyword.at_short}} instances in Dallas for now.
 
 ### Changed: Frankfurt support for {{site.data.keyword.cloudaccesstrailshort}}
-{: #at-frankfurt}
+{: #changed-at-frankfurt}
 
 You can use your {{site.data.keyword.cloudaccesstrailshort}} instance in Frankfurt to view events of your {{site.data.keyword.ihsdbaas_mongodb_full}} instance in Frankfurt.
 
@@ -95,7 +113,7 @@ You can use your {{site.data.keyword.cloudaccesstrailshort}} instance in Frankfu
 {: #Sep13-2019}
 
 ### Added: Free plans are available
-{: #free-plans}
+{: #added-free-plans}
 
 You can try out free plans for {{site.data.keyword.ihsdbaas_mongodb_full}}. Free plans are designed for evaluation purposes and are not suitable for production usage. If you create free-plan instances, note that they will be automatically deleted 30 days after creation.
 
@@ -103,7 +121,7 @@ You can try out free plans for {{site.data.keyword.ihsdbaas_mongodb_full}}. Free
 {: #Aug-2019}
 
 ### Added: {{site.data.keyword.ihsdbaas_mongodb_full}} expands into Frankfurt region
-{: #frankfurt-region}
+{: #added-frankfurt-region}
 
 You can create {{site.data.keyword.ihsdbaas_mongodb_full}} resources in the Frankfurt region.
 
