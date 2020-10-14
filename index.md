@@ -89,7 +89,7 @@ In a database cluster, you can:
 
 You can send the requests to the DBaaS Manager through the UI, the CLI, and the API. For detailed instructions, see [Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service).
 
-To manage your databases and database users, use your database client.
+To create or delete your databases and database users, use your database client.
 
 ## Step 3. Connect to databases
 {: #accessing-database-introduction}
