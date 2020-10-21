@@ -74,24 +74,7 @@ You can create a service instance through the UI, the CLI, and the API. For more
 Free plans are available. They are designed for evaluation purposes and are not suitable for production usage. If you create free-plan instances, note that they will be automatically deleted 30 days after creation.
 {: note}
 
-##  Step 2. Manage the database cluster
-{: #managing-database-cluster-introduction}
-{: help} 
-{: support}
-
-Each {{site.data.keyword.ihsdbaas_mongodb_full}} cluster contains a DBaaS Manager, which manages and intelligently schedules your requests based on the available resources.
-
-In a database cluster, you can:
-- View information about databases, users, and nodes
-- View service logs
-- Monitor databases
-- ...
-
-You can send the requests to the DBaaS Manager through the UI, the CLI, and the API. For detailed instructions, see [Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service).
-
-To create or delete your databases and database users, use your database client.
-
-## Step 3. Connect to databases
+## Step 2. Connect to databases
 {: #accessing-database-introduction}
 
 You can use the mongo shell, your favorite {{site.data.keyword.mongodb}} driver, or tools like {{site.data.keyword.mongodb}} Compass to connect to your databases. {{site.data.keyword.ihsdbaas_mongodb_full}} allows only [SSL](#x2038004){: term}-secured client connections. 
@@ -157,7 +140,24 @@ For example, to use MongoDB Compass to connect to your databases, complete the f
 4. For **Authentication**, select **Username / Password**. Enter your user name and password.
 5. Click the **More Options** tab. In the **SSL** field, select **Server Validation** . Upload the certificate authority file you downloaded from the service dashboard, and click **CONNECT**.
 
-## Step 4 (Conditional). Migrate from {{site.data.keyword.mongodb}} databases
+##  Step 3. Manage the database cluster
+{: #managing-database-cluster-introduction}
+{: help} 
+{: support}
+
+Each {{site.data.keyword.ihsdbaas_mongodb_full}} cluster contains a DBaaS Manager, which manages and intelligently schedules your requests based on the available resources.
+
+In a database cluster, you can:
+- View information about databases, users, and nodes
+- View service logs
+- Monitor databases
+- ...
+
+You can send the requests to the DBaaS Manager through the UI, the CLI, and the API. For detailed instructions, see [Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service).
+
+To create or delete your databases and database users, use your database client.
+
+## Step 4 (Optional). Migrate from {{site.data.keyword.mongodb}} databases
 {: #migrating-from-mongodb}
 
 To migrate from {{site.data.keyword.mongodb}} databases to {{site.data.keyword.ihsdbaas_mongodb_full}}, follow the [migration instructions](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb).
