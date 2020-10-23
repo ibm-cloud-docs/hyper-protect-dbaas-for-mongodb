@@ -46,7 +46,7 @@ You can create your {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mon
 3. Type `{{site.data.keyword.ihsdbaas_full}}` into the search field. Click the **{{site.data.keyword.ihsdbaas_mongodb_full}}** tile.
 4. Choose a pricing plan. 
 5. Enter the required values on the provisioning page and click **Create**. **Tags** are optional and can be added after you create the service instance.
-6. Refresh the **Resource List** page after several minutes. When the status of the service instance is **Provisioned**, the instance is ready to use.
+6. Refresh the **Resource List** page after several minutes. When the status of the service instance is **Active**, the instance is ready to use.
 
 ## Creating a service instance from the CLI
 {: #cli-create-service}
