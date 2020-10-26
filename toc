@@ -4,7 +4,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="hyper-protect-dbaas-for-mongodb" category="databases" audience="service" href="/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted" console-page="/catalog/services/hyper-protect-dbaas-for-mongodb" product-page="https://www.ibm.com/cloud/hyper-protect-dbaas" path="hyper-protect-dbaas-for-mongodb"}
-Hyper Protect DBaaS for MongoDB
+Hyper Protect DBaaS for MongoDB-
 
     {: .navgroup id="learn"}
     index.md
