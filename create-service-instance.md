@@ -109,4 +109,4 @@ To even further strengthen security, it is suggested that you update the **datab
 {: note}
 
 1. To connect to your databases, see [Connecting to databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#accessing-database-introduction).
-2. To manage your service instance, see [Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-postgresql-mongodb-service).
+2. To manage your service instance, see [Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service).
