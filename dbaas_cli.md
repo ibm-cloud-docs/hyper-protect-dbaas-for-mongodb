@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-10-14"
+lastupdated: "2020-11-24"
 
 keywords: instance commands, cluster resource, dbaas cli plugin reference
 
@@ -45,7 +45,7 @@ ibmcloud help dbaas
 ```
 {: pre}
 
-## Cluster command
+## Cluster commands
 {: #cluster_cmds}
 
 ### `ibmcloud dbaas cluster-show`
@@ -63,6 +63,38 @@ ibmcloud dbaas cluster-show <resource_name>
 - *resource_name*
 
   The name of the cluster. To find the resource name, use the {{site.data.keyword.cloud_notm}} command `ibmcloud resource service-instances`.
+
+### `ibmcloud dbaas resource-scale`
+{: #resource-scale}
+
+This command scales the cluster resources (disk, RAM, or vCPU). For the valid value range, see the [value table](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#before-scaling).
+
+```
+ibmcloud dbaas resource-scale <resource_name> [--cpu <value>] [--memory <value>] [--storage <value>] [--force]
+```
+{: pre}
+
+**Command options**
+
+- *resource_name*
+
+  The name of the cluster.
+
+- *--cpu <value>*
+
+  Total number of dedicated CPU cores.
+    
+- *--memory <value>*
+
+  Total memory allocation in GiB. For example, `--memory 4`.
+
+- *--storage <value>*
+
+  Total storage allocation in GiB. For example, `--storage 10`.
+    
+- *--force* (optional)
+
+  Force scaling without the `y/N` confirmation.
 
 ## Database command
 {: #db_cmds}
@@ -173,3 +205,42 @@ ibmcloud dbaas logs-list <resource_name> <node_id>
 - *node_id*
 
   The ID of the node.
+
+## Task commands
+{: #task-cmds}
+
+### `ibmcloud dbaas tasks-list`
+{: #tasks-list}
+
+This command lists all the tasks that are running or recently run on a cluster.
+
+```
+ibmcloud dbaas tasks-list <resource_name>
+```
+{: pre}
+
+**Command options**
+
+- *resource_name*
+
+  The name of the cluster.
+
+### `ibmcloud dbaas task-show`
+{: #task-show}
+
+This command shows details about a task.
+
+```
+ibmcloud dbaas task-show <resource_name> <task_id>
+```
+{: pre}
+
+**Command options**
+
+- *resource_name*
+
+  The name of the cluster.
+
+- *task_id*
+
+  The ID of the task.

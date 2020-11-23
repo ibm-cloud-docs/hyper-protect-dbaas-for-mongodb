@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-10-14"
+lastupdated: "2020-11-24"
 
 keywords: migrate, restore
 
@@ -46,11 +46,11 @@ The following table explains the parameters that are used in the command.
 |---------|-----------|-------|
 |*cluster_name*|The MongoDB replica set name.|MongoDB-001|
 |*host_name_i*|The name of the host server that hosts the node. One primary node and two secondary nodes are available in each cluster.|dbaas29.hyperprotectdbaas.cloud.ibm.com, dbaas31.hyperprotectdbaas.cloud.ibm.com, dbaas30.hyperprotectdbaas.cloud.ibm.com|
-|*port_i*|The port to connect to the corresponding host. You can find the port numbers on the **Overview** page.|28205, 28016, 28175|
+|*port_i*|The port to connect to the corresponding host. You can find the port numbers on the **Manage** page.|28205, 28016, 28175|
 |*user_name*|The username to authenticate to the original databases. The user needs to have READ privilege on the database you want to migrate.|my_user|
 |*authentication_database_name*|The authentication database for the specified user. If you don't specify an authentication database, `mongodump` assumes it to be the database that you set in `--db` option. If the `--db` option is also not specified, `mongodump` assumes it to be the admin database.|admin|
 |*database_name*|The database you want to migrate. If you don't specify the database, `mongodump` dumps all the databases that belong to the user.|my_database|
-|*cert_file*|The [certificate authority (CA)](#x2016383){: term} file in the `.pem` format that you downloaded from the **Overview page** in the service dashboard. Specify it with a relative or absolute path.|./cert.pem|
+|*cert_file*|The [certificate authority (CA)](#x2016383){: term} file in the `.pem` format that you downloaded from the **Manage** page in the service dashboard. Specify it with a relative or absolute path.|./cert.pem|
 |*dump_path*|The path specifies the directory where `mongodump` will write a [BSON](https://docs.mongodb.com/manual/reference/program/mongodump/index.html#cmdoption-mongodump-out){: external} file for the dumped database. You will find the BSON file in a subdirectory with the name of *database_name*. You can use relative or absolute paths.|my_dump_path|
 {: caption="Table 1. Parameters that are needed to create a dump file"}
 
@@ -80,13 +80,13 @@ The following table explains the parameters that are used in the command.
 
 |Parameter|Description|Example|
 |---------|-----------|-------|
-|*cluster_name*|The {{site.data.keyword.mongodb}} cluster name that you set when you create the service instance. You can find the **Cluster name** on the **Overview** page in the service dashboard. The name is the value after `replicaSet=`.||MongoDB-002|
-|*host_name_i*|The name of the host server that hosts the targeting node. One primary node and two secondary nodes are available in each cluster. You can find the hostnames on the **Overview** page in the service dashboard.|dbaas29.hyperprotectdbaas.cloud.ibm.com, dbaas31.hyperprotectdbaas.cloud.ibm.com, dbaas30.hyperprotectdbaas.cloud.ibm.com|
-|*port_i*|The port to connect the corresponding host. You can find the port numbers on the **Overview** page in the service dashboard.|28128, 28248, 28043|
+|*cluster_name*|The {{site.data.keyword.mongodb}} cluster name that you set when you create the service instance. You can find the **Cluster name** on the **Manage** page in the service dashboard. The name is the value after `replicaSet=`.||MongoDB-002|
+|*host_name_i*|The name of the host server that hosts the targeting node. One primary node and two secondary nodes are available in each cluster. You can find the hostnames on the **Manage** page in the service dashboard.|dbaas29.hyperprotectdbaas.cloud.ibm.com, dbaas31.hyperprotectdbaas.cloud.ibm.com, dbaas30.hyperprotectdbaas.cloud.ibm.com|
+|*port_i*|The port to connect the corresponding host. You can find the port numbers on the **Manage** page in the service dashboard.|28128, 28248, 28043|
 |*user_name*|The username to authenticate to the target database. The user doesn't have to be the same as the user that creates the dump file.|new_user|
 |*authentication_database_name*|The authentication database for the specified user. If you don't specify an authentication database, `mongodump` assumes it to be the database that you set in `--db` option. If the `--db` option is also not specified, `mongodump` assumes it to be the admin database.|admin|
 |*database_name*|The target database that you want to migrate the data into. If the database doesn't exist, `mongorestore` creates it automatically. If you don't specify the database, `mongorestore` creates a database based on the original database.|my_database|
-|*cert_file*|The certificate authority (CA) file in the `.pem` format that you downloaded from the **Overview page** in the service dashboard. Specify it with a relative or absolute path.|./cert.pem|
+|*cert_file*|The certificate authority (CA) file in the `.pem` format that you downloaded from the **Manage** page in the service dashboard. Specify it with a relative or absolute path.|./cert.pem|
 |*dump_file_path*|The path of the folder that contains the dump file that you created in [Step 1](#step1_create_dump_file), that is, *dump_path/database_name*. You can use relative or absolute paths.|my_dump_path/my_database|
 {: caption="Table 2. Parameters that are needed to restore the data from a dump file"}
 
