@@ -151,3 +151,5 @@ ibmcloud resource service-instance-update MyDBaaSIns03 --service-plan-id 1563f33
 {: codeblock}
 
 You can use the `ibmcloud resource service-instance <resource_name>` command to verify that `Service Plan Name` is updated to `mongodb-flexible`.
+
+After you convert your plan, you can [scale your resources](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling).
