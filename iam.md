@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-10-14"
+lastupdated: "2020-11-25"
 
 keywords: IAM, identity, access management, role
 
@@ -44,8 +44,11 @@ The following tables outline what actions each service access role allows for th
 | List DBs | ![Check mark icon](../icons/checkmark-icon.svg) | ![Check mark icon](../icons/checkmark-icon.svg) | ![Check mark icon](../icons/checkmark-icon.svg) |
 | List DB log files | ![Check mark icon](../icons/checkmark-icon.svg) | ![Check mark icon](../icons/checkmark-icon.svg) | ![Check mark icon](../icons/checkmark-icon.svg) |
 | Download a DB log file | | | ![Check mark icon](../icons/checkmark-icon.svg) |
-| Enable DB logging | | | ![Check mark icon](../icons/checkmark-icon.svg) |
-| Enable DB Monitoring | | | ![Check mark icon](../icons/checkmark-icon.svg) |
+| Enable DB logging | | ![Check mark icon](../icons/checkmark-icon.svg) | ![Check mark icon](../icons/checkmark-icon.svg) |
+| Enable DB Monitoring | | ![Check mark icon](../icons/checkmark-icon.svg) | ![Check mark icon](../icons/checkmark-icon.svg) |
+| Scale cluster resources | | | ![Check mark icon](../icons/checkmark-icon.svg) |
+| List cluster tasks | ![Check mark icon](../icons/checkmark-icon.svg) | ![Check mark icon](../icons/checkmark-icon.svg) | ![Check mark icon](../icons/checkmark-icon.svg) |
+| Get cluster task details | ![Check mark icon](../icons/checkmark-icon.svg) | ![Check mark icon](../icons/checkmark-icon.svg) | ![Check mark icon](../icons/checkmark-icon.svg) |
 {: caption="Table 1. IAM service access roles and actions" caption-side="top"}
 
 | Action Description | Action |
@@ -58,6 +61,9 @@ The following tables outline what actions each service access role allows for th
 | Download a DB log file | hyperp-dbaas-mongodb.logs.read |
 | Enable DB logging | hyperp-dbaas-mongodb.logging.enable |
 | Enable DB Monitoring| hyperp-dbaas-mongodb.monitoring.enable |
+| Scale cluster resources | hyperp-dbaas-mongodb.clusters.resource.scale |
+| List cluster tasks | hyperp-dbaas-mongodb.clusters.tasks.list |
+| Get cluster task details | hyperp-dbaas-mongodb.clusters.tasks.read |
 {: caption="Table 2. IAM service access actions" caption-side="top"}
 
 ## Difference between IAM service access and database user privileges

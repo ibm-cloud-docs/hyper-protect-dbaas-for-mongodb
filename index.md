@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-10-14"
+lastupdated: "2020-11-25"
 
 keywords: hyper protect dbaas, hyper protect dbaas for mongodb, mongodb, cloud database, data security, secure database, encrypted database
 
@@ -34,7 +34,7 @@ For more information about the industry-leading data security level of {{site.da
 
 {{site.data.keyword.ihsdbaas_mongodb_full}} provides {{site.data.keyword.mongodb}} database clusters in the {{site.data.keyword.cloud_notm}}. Each {{site.data.keyword.ihsdbaas_full}} database cluster has one primary node and two secondary nodes (replicas that back up the primary). For more information about high data availability, see [High availability and disaster recovery](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-high-availability-disaster-recovery).
 
-With {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}, you can create database clusters, view information about your nodes, databases, and users, monitor databases, and view service logs.
+With {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}, you can create database clusters, scale your resources, view information about your nodes, databases, and users, monitor databases, and view service logs.
 
 Watch the following video to find how to get started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}:
 
@@ -84,7 +84,7 @@ You can use the mongo shell, your favorite {{site.data.keyword.mongodb}} driver,
 
 The tool that you use needs to be compatible with MongoDB EE 3.6 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}.
 
-To enable verification of the server certificate during database connection, download the [certificate authority (CA)](#x2016383){: term} file from the **Overview** page of the service dashboard, and copy it to the appropriate directory.
+To enable verification of the server certificate during database connection, download the [certificate authority (CA)](#x2016383){: term} file from the **Manage** page of the service dashboard, and copy it to the appropriate directory.
 
 #### Using mongo shell
 {: #accessing-database-introduction-connect-mongoshell}
@@ -134,7 +134,7 @@ For other tools, such as [{{site.data.keyword.mongodb}} Compass](https://docs.mo
 
 For example, to use MongoDB Compass to connect to your databases, complete the following steps:
 
-1. Copy the cluster URL from the **Overview** page in the {{site.data.keyword.ihsdbaas_mongodb_full}} service dashboard.
+1. Copy the cluster URL from the **Manage** page in the {{site.data.keyword.ihsdbaas_mongodb_full}} service dashboard.
 2. Open MongoDB Compass. On the **New Connection** page, paste the cluster URL.
 3. Click **Fill in connection fields individually**.
 4. For **Authentication**, select **Username / Password**. Enter your user name and password.
@@ -148,6 +148,7 @@ For example, to use MongoDB Compass to connect to your databases, complete the f
 Each {{site.data.keyword.ihsdbaas_mongodb_full}} cluster contains a DBaaS Manager, which manages and intelligently schedules your requests based on the available resources.
 
 In a database cluster, you can:
+- Scale your resources
 - View information about databases, users, and nodes
 - View service logs
 - Monitor databases
