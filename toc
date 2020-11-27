@@ -35,7 +35,7 @@ Hyper Protect DBaaS for MongoDB
     node.md
 
     {: .topicgroup}
-    Logging and Monitoring
+    Logging and monitoring
         at_events.md
         logging.md
         monitoring.md
