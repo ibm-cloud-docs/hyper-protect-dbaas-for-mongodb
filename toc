@@ -34,7 +34,7 @@ Hyper Protect DBaaS for MongoDB
     database.md
     database-user.md
     node.md
-
+    
     {: .topicgroup}
     Logging and monitoring
         at_events.md
@@ -56,6 +56,7 @@ Hyper Protect DBaaS for MongoDB
         backup.md
         restore.md
 
+    upgrade.md
     migration.md
     {: .navgroup-end}
 

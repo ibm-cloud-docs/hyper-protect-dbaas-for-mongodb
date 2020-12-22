@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-12-03"
+lastupdated: "2020-12-22"
 
 keywords: restore, support
 
@@ -39,7 +39,7 @@ To restore a backup to an existing service instance, open a support request:
 5. In the **Subject** field, enter at least **Restore**.
 6. In the **Description** box, enter a date within the last seven days as the date of the backup from which the {{site.data.keyword.IBM_notm}} team will restore from.
 7. Leave the **Email me Updates** checkbox selected so that you can receive support case notifications.
-8. Click **Next**. Review your case summary, and click **Submit case**. 
+8. Click **Next**. Review your case summary, and click **Submit case**.
 
 When the restore completes, the {{site.data.keyword.IBM_notm}} Support team will inform you. Alternatively you can follow the ticket progress on the [Manage cases page](https://cloud.ibm.com/unifiedsupport/cases){: external}.
 

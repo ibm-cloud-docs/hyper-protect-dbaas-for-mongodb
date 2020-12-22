@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-11-25"
+lastupdated: "2020-12-22"
 
 keywords: troubleshoot, troubleshooting, can't get cluster id, Unable to obtain plug-in’s metadata, cannot connect from Hyper Protect Virtual Servers, get help
 
