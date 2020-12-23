@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-12-01"
+lastupdated: "2020-12-23"
 
 keywords: hyper protect dbaas, hyper protect dbaas for mongodb, mongodb, cloud database, data security, secure database, encrypted database
 
@@ -43,7 +43,7 @@ Watch the following video to find out how to get started with {{site.data.keywor
 ## Supported version
 {: #mongodb_supported_version}
 
-{{site.data.keyword.ihsdbaas_mongodb_full}} currently supports {{site.data.keyword.mongodb}} EE 3.6. It provides a secure, up-to-date version of the {{site.data.keyword.mongodb}} Enterprise database. We upgrade database maintenance versions `major.minor.maintenance` when appropriate.
+{{site.data.keyword.ihsdbaas_mongodb_full}} currently supports {{site.data.keyword.mongodb}} EE 4.4. It provides a secure, up-to-date version of the {{site.data.keyword.mongodb}} Enterprise database. We upgrade database maintenance versions `major.minor.maintenance` when appropriate.
 
 ## Prerequisites
 {: #prerequisite}
@@ -82,22 +82,22 @@ You can use the mongo shell, your favorite {{site.data.keyword.mongodb}} driver,
 ### Before you begin
 {: #accessing-database-introduction-byb}
 
-The tool that you use needs to be compatible with MongoDB EE 3.6 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}.
+The tool that you use needs to be compatible with {{site.data.keyword.mongodb}} EE 4.4 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}.
 
 To enable verification of the server certificate during database connection, download the [certificate authority (CA)](#x2016383){: term} file from the **Manage** page of the service dashboard, and copy it to the appropriate directory.
 
 #### Using mongo shell
 {: #accessing-database-introduction-connect-mongoshell}
 
-[Download the mongo shell](https://www.mongodb.com/download-center/enterprise){: external} as part of the MongoDB Server or as a standalone package. To check whether the version is compatible with MongoDB EE 3.6 supported by {{site.data.keyword.ihsdbaas_mongodb_full}}, see [{{site.data.keyword.mongodb}} Release Notes](https://docs.mongodb.com/manual/release-notes/){: external}.
+[Download the mongo shell](https://www.mongodb.com/download-center/enterprise){: external} as part of the {{site.data.keyword.mongodb}} Server or as a stand-alone package. To check whether the version is compatible with {{site.data.keyword.mongodb}} EE 4.4 supported by {{site.data.keyword.ihsdbaas_mongodb_full}}, see [{{site.data.keyword.mongodb}} Release Notes](https://docs.mongodb.com/manual/release-notes/){: external}.
 
-To use the mongo shell to connect to your databases, run the following command. You can copy the command from the service dashboard. For more information about the mongo shell, see [mongo](https://docs.mongodb.com/manual/reference/program/mongo/index.html){: external}.
+To use the mongo shell to connect to your databases, run the following command. You can copy the command from the service dashboard. For more information about the mongo shell, see the [mongo shell documentation](https://docs.mongodb.com/manual/mongo/){: external}.
 
 ```
 # mongo 'mongodb://<host_name_1>:<port_1>,\
 <host_name_2>:<port_2>,\
 <host_name_3>:<port_3>/admin?replicaSet=<cluster_name>' \
---ssl --username <user_name> --password <password> --sslCAFile <CAFile>
+--tls --username <user_name> --password <password> --tlsCAFile <CAFile>
 ```
 {: codeblock}
 
@@ -125,20 +125,20 @@ To use the mongo shell to connect to your databases, run the following command. 
 
 - *CAFile*
 
-  The path of the `cert.pem` file you downloaded from the service dashboard.
+  The path of the `cert.pem` file that you downloaded from the service dashboard.
 
-#### Using MongoDB Compass or other tools
+#### Using {{site.data.keyword.mongodb}} Compass or other tools
 {: #accessing-database-introduction-connect-mongodb-compass}
 
 For other tools, such as [{{site.data.keyword.mongodb}} Compass](https://docs.mongodb.com/compass/master/install/){: external}, {{site.data.keyword.ihsdbaas_mongodb_full}} supports *SSL server certificate validation* to connect to the host.
 
-For example, to use MongoDB Compass to connect to your databases, complete the following steps:
+For example, to use {{site.data.keyword.mongodb}} Compass to connect to your databases, complete the following steps:
 
 1. Copy the cluster URL from the **Manage** page in the {{site.data.keyword.ihsdbaas_mongodb_full}} service dashboard.
-2. Open MongoDB Compass. On the **New Connection** page, paste the cluster URL.
+2. Open {{site.data.keyword.mongodb}} Compass. On the **New Connection** page, paste the cluster URL.
 3. Click **Fill in connection fields individually**.
 4. For **Authentication**, select **Username / Password**. Enter your user name and password.
-5. Click the **More Options** tab. In the **SSL** field, select **Server Validation** . Upload the certificate authority file you downloaded from the service dashboard, and click **CONNECT**.
+5. Click the **More Options** tab. In the **SSL** field, select **Server Validation** . Upload the certificate authority file that you downloaded from the service dashboard, and click **CONNECT**.
 
 ##  Step 3. Manage the database cluster
 {: #managing-database-cluster-introduction}

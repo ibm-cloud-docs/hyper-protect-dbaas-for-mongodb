@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2020-11-25"
+lastupdated: "2020-12-23"
 
 keywords: migrate, restore
 
@@ -28,7 +28,10 @@ If you're using {{site.data.keyword.mongodb}} databases and want to migrate to {
 ## Before you begin
 {: #migration_mongodb_before_begin}
 
-To use the {{site.data.keyword.mongodb}} commands to complete the migration, you need to download and install {{site.data.keyword.mongodb}} of the version compatible with {{site.data.keyword.mongodb}} EE 3.6 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}. For more information, see [{{site.data.keyword.mongodb}} Release Notes](https://docs.mongodb.com/manual/release-notes/){: external}.
+To use the `mongodump` and `mongorestore` commands to complete the migration, you need to download and install the [{{site.data.keyword.mongodb}} Database Tools](https://www.mongodb.com/try/download/database-tools){: external}.
+
+Starting with {{site.data.keyword.mongodb}} 4.4, the {{site.data.keyword.mongodb}} Database Tools are released separately from the {{site.data.keyword.mongodb}} Server and use their own versioning. Before you download the tools, refer to the [`mongodump` documentation](https://docs.mongodb.com/database-tools/mongodump/#compatibility){: external} and the [`mongorestore` documentation](https://docs.mongodb.com/database-tools/mongorestore/#compatibility){: external} to ensure that they're compatible with {{site.data.keyword.mongodb}} 4.4.
+{: note}
 
 ## Step 1. Create a dump file for restoring the original databases
 {: #step1_create_dump_file}
@@ -54,7 +57,7 @@ The following table explains the parameters that are used in the command.
 |*dump_path*|The path specifies the directory where `mongodump` will write a [BSON](https://docs.mongodb.com/manual/reference/program/mongodump/index.html#cmdoption-mongodump-out){: external} file for the dumped database. You will find the BSON file in a subdirectory with the name of *database_name*. You can use relative or absolute paths.|my_dump_path|
 {: caption="Table 1. Parameters that are needed to create a dump file"}
 
-For more information about `mongodump` utility, see [{{site.data.keyword.mongodb}} documentation](https://docs.mongodb.com/manual/reference/program/mongodump/){: external}.
+For more information about the `mongodump` utility, see the [`mongodump` documentation](https://docs.mongodb.com/database-tools/mongodump/){: external}.
 
 You can get most of the information from the cluster URI. The format of the URI is `mongodb://<host_name_1>:<port_1>,<host_name_2>:<port_2>,<host_name_3>:<port_3>/admin?replicaSet=<replica_set_name>`. You can match the parameters to the corresponding ones in the previous `mongodump` command.
 {: tip}
