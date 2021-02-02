@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-12-23"
+  years: 2019, 2021
+lastupdated: "2021-02-02"
 
 keywords: hyper protect dbaas, hyper protect dbaas for mongodb, mongodb, cloud database, data security, secure database, encrypted database
 
@@ -27,7 +27,7 @@ subcollection: hyper-protect-dbaas-for-mongodb
 # Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}
 {: #gettingstarted}
 
-{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} provides tamper-proof, enterprise cloud database environments with high availability for workloads with sensitive data. It offers a flexible platform that allows you to easily provision and manage your database of choice, without data security concerns.
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} provides tamper-proof, enterprise cloud database environments with high availability for workloads with sensitive data. It offers a flexible platform that allows you to easily provision and manage your database of choice ({{site.data.keyword.mongodb}} and [{{site.data.keyword.postgresql}}](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)), without data security concerns.
 {: shortdesc}
 
 For more information about the industry-leading data security level of {{site.data.keyword.ihsdbaas_mongodb_full}}, see [Securing your data in {{site.data.keyword.ihsdbaas_mongodb_full}}](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security).
@@ -54,11 +54,11 @@ Watch the following video to find out how to get started with {{site.data.keywor
 
   If you encounter problems when you use one of the required browsers, disable your browser plug-ins.
 
-2. You can create a 30-day free plan service instance with a Lite {{site.data.keyword.cloud_notm}} account. To create a paid service instance, make sure you have a [Pay-As-You-Go or Subscription {{site.data.keyword.cloud_notm}} account](/docs/account?topic=account-accounts).
+2. You can create a 30-day free plan service instance (or a paid service instance) with three types of accounts: [Pay-As-You-Go, Subscription](/docs/account?topic=account-accounts), or [trial accounts](/docs/account?topic=account-accountfaqs#freetrial) (trial accounts are available for faculty and students at accredited academic institutions).
 
-  To check your account type, go to [{{site.data.keyword.cloud_notm}}](https://cloud.ibm.com/){: external} and click **Management** > **Account** > **Account settings**.
+  To check your account type, go to the [Account settings](https://cloud.ibm.com/account/settings){: external} page.
 
-  If you have a Lite account and want to create a paid service instance, [upgrade your account to a Pay-As-You-Go or Subscription account](/docs/account?topic=account-upgrading-account).
+  If you have a Lite account, you need to [upgrade your account to a Pay-As-You-Go or Subscription account](/docs/account?topic=account-upgrading-account), or [convert it to a trial account](/docs/account?topic=account-accountfaqs#convertacct).
 
 ## Step 1. Create a service instance
 {: #creating-a-database-cluster-introduction}
@@ -71,7 +71,7 @@ When you create a service instance, you create a cloud database cluster (replica
 
 You can create a service instance through the UI, the CLI, and the API. For more information and detailed instructions, see [Creating a service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service).
 
-Free plans are available. They are designed for evaluation purposes and are not suitable for production usage. If you create free-plan instances, note that they will be automatically deleted 30 days after creation.
+Free plans are available. They are designed for evaluation purposes and are not suitable for production usage. Free-plan service instances will be automatically deleted 30 days after creation.
 {: note}
 
 ## Step 2. Connect to databases
@@ -134,11 +134,14 @@ For other tools, such as [{{site.data.keyword.mongodb}} Compass](https://docs.mo
 
 For example, to use {{site.data.keyword.mongodb}} Compass to connect to your databases, complete the following steps:
 
-1. Copy the cluster URL from the **Manage** page in the {{site.data.keyword.ihsdbaas_mongodb_full}} service dashboard.
+1. Copy the cluster URL from the **Manage** page on the {{site.data.keyword.ihsdbaas_mongodb_full}} service dashboard.
 2. Open {{site.data.keyword.mongodb}} Compass. On the **New Connection** page, paste the cluster URL.
 3. Click **Fill in connection fields individually**.
 4. For **Authentication**, select **Username / Password**. Enter your user name and password.
 5. Click the **More Options** tab. In the **SSL** field, select **Server Validation** . Upload the certificate authority file that you downloaded from the service dashboard, and click **CONNECT**.
+
+Don't skip step 5, otherwise the connection will fail.
+{: important}
 
 ##  Step 3. Manage the database cluster
 {: #managing-database-cluster-introduction}
