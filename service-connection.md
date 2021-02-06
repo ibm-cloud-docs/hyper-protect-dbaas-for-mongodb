@@ -32,7 +32,7 @@ You can choose one of the following options when you create a service instance o
 - Private endpoints
 
 {{site.data.keyword.ihsdbaas_mongodb_full}} doesn't support changing your service endpoint configuration after service creation for now.
-{:note}
+{: note}
 
 ## Public endpoints
 {: #public-service-endpoint}

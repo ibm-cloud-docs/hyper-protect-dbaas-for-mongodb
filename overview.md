@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2020
-lastupdated: "2020-12-23"
+  years: 2019, 2021
+lastupdated: "2021-02-06"
 
 keywords: Hyper Protect DBaaS, cloud database, data security
 
@@ -68,4 +68,4 @@ When you create a {{site.data.keyword.ihsdbaas_mongodb_full}} service instance, 
 
 - Follow the [getting started tutorial](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted) to try out the service for free.
 - For the compliance standards that {{site.data.keyword.ihsdbaas_mongodb_full}} follow, see [Compliance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-compliance).
-- Stay up to date with the latest features with [What's new](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new).
+- Stay up to date with the latest features with [Release notes](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new).

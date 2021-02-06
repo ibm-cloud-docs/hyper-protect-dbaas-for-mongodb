@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-12-23"
+  years: 2020, 2021
+lastupdated: "2021-02-06"
 
 keywords: upgrade mongodb, mongodb version
 
@@ -49,7 +49,7 @@ The following table explains the parameters that are used in the command.
 
 |Parameter|Description|Example|
 |---------|-----------|-------|
-|*cluster_name*|The {{site.data.keyword.mongodb}} cluster name that you set when you create the service instance. You can find the **Cluster name** on the **Manage** page in the service dashboard.|MongoDB-001|
+|*cluster_name*|The {{site.data.keyword.mongodb}} cluster name that you set when you create the service instance. You can find the **Cluster name** on the **Manage** page on the service dashboard.|MongoDB-001|
 |*host_name_i*|The name of the host server that hosts the node. One primary node and two secondary nodes are available in each cluster. You can find the hostnames on the **Manage** page.|dbaas29.hyperprotectdbaas.cloud.ibm.com, dbaas31.hyperprotectdbaas.cloud.ibm.com, dbaas30.hyperprotectdbaas.cloud.ibm.com|
 |*port_i*|The port to connect to the corresponding host. You can find the port numbers on the **Manage** page.|28205, 28016, 28175|
 |*user_name*|The username to authenticate to the original databases. The user needs to have READ privilege on the database you want to migrate.|my_user|
@@ -61,13 +61,13 @@ The following table explains the parameters that are used in the command.
 
 For more information about the `mongodump` utility, see the [mongodump documentation](https://docs.mongodb.com/database-tools/mongodump/){: external}.
 
-You can get most of the information from the cluster URL on the Manage page in the service dashboard. The format of the URL is `mongodb://<host_name_1>:<port_1>,<host_name_2>:<port_2>,<host_name_3>:<port_3>/admin?replicaSet=<cluster_name>`. You can match the parameters to the corresponding ones in the previous `mongodump` command.
+You can get most of the information from the cluster URL on the Manage page on the service dashboard. The format of the URL is `mongodb://<host_name_1>:<port_1>,<host_name_2>:<port_2>,<host_name_3>:<port_3>/admin?replicaSet=<cluster_name>`. You can match the parameters to the corresponding ones in the previous `mongodump` command.
 {: tip}
 
 ## Step 2. Create a new service instance with suitable resource allocation values
 {: #step2-create-new-instance}
 
-[Create a new {{site.data.keyword.ihsdbaas_mongodb_full}} service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service), which runs {{site.data.keyword.mongodb}} 4.4 by default. Make sure the disk size you select is enough to restore the database backup.
+[Create a new {{site.data.keyword.ihsdbaas_mongodb_full}} service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service), which runs {{site.data.keyword.mongodb}} 4.4 by default. Make sure the disk size that you select is enough to restore the database backup.
 
 ## Step 3. Restore the data to the new service instance
 {: #step3-restore-data}
@@ -82,7 +82,7 @@ The following table explains the parameters that are used in the command.
 
 |Parameter|Description|Example|
 |---------|-----------|-------|
-|*cluster_name*|The target {{site.data.keyword.mongodb}} cluster name that you set when you create the service instance. You can find the **Cluster name** on the **Manage** page in the service dashboard.|MongoDB-002|
+|*cluster_name*|The target {{site.data.keyword.mongodb}} cluster name that you set when you create the service instance. You can find the **Cluster name** on the **Manage** page on the service dashboard.|MongoDB-002|
 |*host_name_i*|The name of the host server that hosts the target node. One primary node and two secondary nodes are available in each cluster. You can find the hostnames on the **Manage** page.|dbaas29.hyperprotectdbaas.cloud.ibm.com, dbaas31.hyperprotectdbaas.cloud.ibm.com, dbaas30.hyperprotectdbaas.cloud.ibm.com|
 |*port_i*|The port to connect to the corresponding host. You can find the port numbers on the **Manage** page.|28128, 28248, 28043|
 |*user_name*|The username to authenticate to the target database. The user doesn't have to be the same as the user that creates the dump file.|new_user|
@@ -92,7 +92,7 @@ The following table explains the parameters that are used in the command.
 |*dump_file*|The `.dump` file that you download from your Cloud {{site.data.keyword.cos_short}} bucket. You can use relative or absolute paths to specify the file.|./mongo.dump|
 {: caption="Table 2. Parameters that are needed to restore the data from a dump file"}
 
-For {{site.data.keyword.mongodb}}, the migration merges the original data into the target cluster rather than overwrites the existing data if any. You can refer to the [detailed explanation](https://docs.mongodb.com/database-tools/mongorestore/#insert-only){: external} of this feature in the {{site.data.keyword.mongodb}} website. See the [{{site.data.keyword.mongodb}} documentation](https://docs.mongodb.com/database-tools/mongorestore/){: external} for more information about the `mongorestore` utility.
+For {{site.data.keyword.mongodb}}, the migration merges the original data into the target cluster rather than overwrites the existing data if any. You can refer to the [detailed explanation](https://docs.mongodb.com/database-tools/mongorestore/#insert-only){: external} of this feature in the {{site.data.keyword.mongodb}} website. For more information about the `mongorestore` utility, see the [{{site.data.keyword.mongodb}} documentation](https://docs.mongodb.com/database-tools/mongorestore/){: external}.
 
 ## What's next
 {: #whats-next}
