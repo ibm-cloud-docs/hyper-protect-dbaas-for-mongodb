@@ -19,7 +19,7 @@ subcollection: hyper-protect-dbaas-for-mongodb
 Stay up to date with the new features that are available for {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}.
 {: shortdesc}
 
-## 25 Fbruary 2021
+## 25 February 2021
 {: #feb-2021}
 
 ### Added: {{site.data.keyword.ihsdbaas_mongodb_full}} expands into Washington DC region
