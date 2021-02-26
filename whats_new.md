@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-02-06"
+lastupdated: "2021-02-25"
 
 keywords: release note, new, added, changed, deleted
 
@@ -18,6 +18,14 @@ subcollection: hyper-protect-dbaas-for-mongodb
 
 Stay up to date with the new features that are available for {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}.
 {: shortdesc}
+
+## 25 Fbruary 2021
+{: #feb-2021}
+
+### Added: {{site.data.keyword.ihsdbaas_mongodb_full}} expands into Washington DC region
+{: #added-washington-dc-region}
+
+You can [create](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service) {{site.data.keyword.ihsdbaas_mongodb_full}} service instances in the Washington DC region. 
 
 ## 23 December 2020
 {: #dec-23-2020}
@@ -141,7 +149,7 @@ You can view logs of your {{site.data.keyword.ihsdbaas_mongodb_full}} instance i
 ### Added: {{site.data.keyword.ihsdbaas_mongodb_full}} expands into Sydney region
 {: #added-sydney-region}
 
-You can create {{site.data.keyword.ihsdbaas_mongodb_full}} resources in the Sydney region. To receive logs and events of your {{site.data.keyword.ihsdbaas_mongodb_full}} instance in Sydney, use {{site.data.keyword.cloud_notm}} {{site.data.keyword.loganalysisshort_notm}} and {{site.data.keyword.at_short}} instances in Dallas for now.
+You can create {{site.data.keyword.ihsdbaas_mongodb_full}} service instances in the Sydney region. To receive logs and events of your {{site.data.keyword.ihsdbaas_mongodb_full}} instance in Sydney, use {{site.data.keyword.cloud_notm}} {{site.data.keyword.loganalysisshort_notm}} and {{site.data.keyword.at_short}} instances in Dallas for now.
 
 ### Changed: Frankfurt support for {{site.data.keyword.cloudaccesstrailshort}}
 {: #changed-at-frankfurt}
@@ -162,7 +170,7 @@ You can try out free plans for {{site.data.keyword.ihsdbaas_mongodb_full}}. They
 ### Added: {{site.data.keyword.ihsdbaas_mongodb_full}} expands into Frankfurt region
 {: #added-frankfurt-region}
 
-You can create {{site.data.keyword.ihsdbaas_mongodb_full}} resources in the Frankfurt region.
+You can create {{site.data.keyword.ihsdbaas_mongodb_full}} service instances in the Frankfurt region.
 
 ## 21 June 2019
 {: #June-2019}
