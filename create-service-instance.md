@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-02-06"
+lastupdated: "2021-02-25"
 
 keywords: database cluster, create service instance, DBaaS dashboard
 
@@ -73,7 +73,7 @@ Where the parameters have the following definitions:
 | *MyDBaaSIns03*   |  The name of the service instance (replace with a name of your own choosing). |
 | *hyperp-dbaas-mongodb* | The catalog name of {{site.data.keyword.ihsdbaas_mongodb_full}}. |
 | *mongodb-flexible*  | The plan name. For a 30-day free trial, use `mongodb-free` and omit the values of cpu, memory, and storage in the `-p` JSON string. <!--(**Note:** Plan names are case-sensitive.--> |
-| *us-south*            | The location where your new database will be located. |
+| *us-south*            | The location of your new databases. Available regions are `us-south` (Dallas), `us-east` (Washington DC), `eu-de` (Frankfurt), and `au-syd` (Sydney). |
 | *-p*               | A valid JSON string, which must contain the required parameters in Table 2. |
 | *--service-endpoints* | Enter `private` or `public` for the *--service-endpoints* option. If you omit this option, you will create a service instance with public endpoints.|
 {: caption="Table 1. Parameters that are used in creating a service instance" caption-side="top"}
