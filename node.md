@@ -32,9 +32,7 @@ You can view your node status and download logs through the UI, CLI, and API.
 ## Checking node status
 {: #check-node-status}
 
-The information is read-only. If a node is failed, see [Getting help and support](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-getting-help-and-support).
-
-If your service instance is protected by an external key and the key is deleted or not connected, the nodes are stopped.
+The information is read-only. If a node is failed, see [Getting help and support](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-getting-help-and-support). If your service instance is protected by an external key and the key is deleted or not connected, the nodes are stopped.
 
 ### Checking node status in the UI
 {: #webui-check-node-status}
