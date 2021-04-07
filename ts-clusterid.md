@@ -8,6 +8,8 @@ keywords: troubleshoot, troubleshooting, can't get cluster id, Unable to obtain 
 
 subcollection: hyper-protect-dbaas-for-mongodb
 
+content-type: troubleshoot
+
 ---
 
 {:tsSymptoms: .tsSymptoms}
