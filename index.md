@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-02-06"
+lastupdated: "2021-04-07"
 
 keywords: hyper protect dbaas, hyper protect dbaas for mongodb, mongodb, cloud database, data security, secure database, encrypted database
 
@@ -109,7 +109,7 @@ When you create a service instance, you create a cloud database cluster (replica
 
 ![A {{site.data.keyword.ihsdbaas_full}} service instance](images/cluster-node-db.svg "A {{site.data.keyword.ihsdbaas_full}} service instance with high availability"){: caption="Figure 1. A {{site.data.keyword.ihsdbaas_full}} service instance with high availability" caption-side="bottom"}
 
-You can create a service instance through the UI, the CLI, and the API. For more information and detailed instructions, see [Creating a service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service).
+You can create a service instance through the UI, CLI, and API. For more information and detailed instructions, see [Creating a service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service).
 
 Free plans are available. They are designed for evaluation purposes and are not suitable for production usage. Free-plan service instances will be automatically deleted 30 days after creation.
 {: note}
@@ -124,7 +124,10 @@ You can use the mongo shell, your favorite {{site.data.keyword.mongodb}} driver,
 
 The tool that you use needs to be compatible with {{site.data.keyword.mongodb}} EE 4.4 that is supported by {{site.data.keyword.ihsdbaas_mongodb_full}}.
 
-To enable verification of the server certificate during database connection, download the [certificate authority (CA)](#x2016383){: term} file from the **Manage** page of the service dashboard, and copy it to the appropriate directory.
+To enable verification of the server certificate during database connection, download the [certificate authority (CA)](#x2016383){: term} file from the **Overview** page of the service dashboard, and copy it to the appropriate directory.
+
+The CA file you download from the dashboard contains root and intermediate certificates, which are both required for certificate validation.
+{: note}
 
 #### Using mongo shell
 {: #accessing-database-introduction-connect-mongoshell}
@@ -174,7 +177,7 @@ For other tools, such as [{{site.data.keyword.mongodb}} Compass](https://docs.mo
 
 For example, to use {{site.data.keyword.mongodb}} Compass to connect to your databases, complete the following steps:
 
-1. Copy the cluster URL from the **Manage** page on the {{site.data.keyword.ihsdbaas_mongodb_full}} service dashboard.
+1. Copy the cluster URL from the **Overview** page on the {{site.data.keyword.ihsdbaas_mongodb_full}} service dashboard.
 2. Open {{site.data.keyword.mongodb}} Compass. On the **New Connection** page, paste the cluster URL.
 3. Click **Fill in connection fields individually**.
 4. For **Authentication**, select **Username / Password**. Enter your user name and password.
@@ -197,7 +200,7 @@ In a database cluster, you can:
 - Monitor databases
 - ...
 
-You can send the requests to the DBaaS Manager through the UI, the CLI, and the API. For detailed instructions, see [Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service).
+You can send the requests to the DBaaS Manager through the UI, CLI, and API. For detailed instructions, see [Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service).
 
 To create or delete your databases and database users, use your database client.
 
