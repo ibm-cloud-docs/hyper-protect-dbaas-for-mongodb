@@ -4,11 +4,9 @@ copyright:
   years: 2019, 2021
 lastupdated: "2021-04-21"
 
-keywords: frequently asked questions, database
+keywords: dbaas pricing
 
 subcollection: hyper-protect-dbaas-for-mongodb
-
-content-type: faq
 
 ---
 
@@ -94,36 +92,52 @@ content-type: faq
 {:video: .video}
 
 
-# FAQs about usage
-{: #faqs-usage}
+# Pricing
+{: #pricing}
 
-You can use the following FAQs to help you with {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}. To find all FAQs for {{site.data.keyword.cloud_notm}}, see our [FAQ library](/docs/faqs).
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}} offers two different pricing plans:
+- A 30-day free plan is available for evaluation purposes.
+- A flexible pricing plan is designed to host production data with flexible resource allocations.
 {: shortdesc}
 
-## How can I prevent data loss from hardware failure?
-{: #protect-from-failure}
-{: faq}
-{: support}
+## Estimating costs
+{: #estimate-costs}
 
-{{site.data.keyword.ihsdbaas_mongodb_full}} provides [automatic in-region data redundancy and failover](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-high-availability-disaster-recovery#in-region-redundancy-failover) and [automatic database backups in all availability zones](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-high-availability-disaster-recovery#automatic-daily-backups). It also supports [manual cross-region backups](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-high-availability-disaster-recovery#cross-region-backups) to prepare for the disaster scenario where the entire region fails.
+You can find the pricing plans for {{site.data.keyword.ihsdbaas_mongodb_full}} on the [service creation page](https://cloud.ibm.com/catalog/services/hyper-protect-dbaas-for-mongodb){: external}.
 
-## Do I need to enable the replication to secondary nodes manually?
-{: #replication-by-default}
-{: faq}
-{: support}
+For the flexible plan, billing is based on the total amount of RAM, disk, and number of vCPUs allocated to your service instance, prorated hourly. The cost includes daily backups and there're no additional charges for ingress, egress, or IOPS. For more information about RAM, disk, and vCPUs, see [Resource breakdown](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#resources-breakdown).
 
-No. By default, your {{site.data.keyword.ihsdbaas_full}} service instance consists of three nodes, one primary and two secondary nodes in three different availability zones in the {{site.data.keyword.cloud_notm}} region. The data in your primary node is automatically replicated to secondary nodes (replicas) with low latency.
+The following are prices per unit and per month.
 
-## Can {{site.data.keyword.ihsdbaas_full}} back up my data automatically?
-{: #automatic-backup}
-{: faq}
-{: support}
+Resource | Price
+----------|-----------
+RAM | $24.40 USD/GB
+Disk | $0.89 USD/GB
+vCPU | $69.00 USD/vCPU
+{: caption="Table 1. Price per unit per month" caption-side="top"}
 
-Yes. {{site.data.keyword.ihsdbaas_full}} does [automatic database backups](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-high-availability-disaster-recovery#automatic-daily-backups) in all availability zones in the region of your service instance every day. You can restore your data from backups in the last seven days.
+The total resource allocation is three times the amount you select for each node because one {{site.data.keyword.ihsdbaas_mongodb_full}} service instance has three nodes in a cluster for high availability. See the following pricing example.
 
-## Where can I find usage and billing information?
-{: #metering-and-billing}
-{: faq}
-{: support}
+Resource | Price (per month)
+----------|-----------
+RAM - 2 GB/node | $24.4 USD/GB x 2 GB/node x 3 nodes = $146.4 USD
+Disk - 5 GB/node | $0.89 USD/GB x 5 GB/node x 3 nodes = $13.35 USD
+vCPU - 1 vCPU/node | $69 USD/vCPU x 1 vCPU/node x 3 nodes = $207 USD
+Total | $146.4 + $13.35 + $207 = $366.75 USD
+{: caption="Table 2. Pricing example" caption-side="top"}
+
+You can use the cost estimator on the service creation page to estimate your costs. Click **Add to estimate** or **Estimate costs** and input your total allocation values (three times the values per node). Click **Calculate cost**. The estimated cost doesn’t include tax or discounts.
+
+![Using the cost estimator](images/mongodb-pricing.png "Using the cost estimator"){: caption="Figure 1. Using the cost estimator" caption-side="bottom"}
+
+## Scaling resources
+{: #scale-resources}
+
+You can manually scale the amount of RAM, disk, and number of vCPUs allocated to your {{site.data.keyword.ihsdbaas_mongodb_full}} service instance to suit your workload and the size of your data. For more information and detailed instructions, see [Scaling RAM, disk, and vCPU](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling).
+
+You can see the estimated cost in the UI when you select new resource values. The new billing takes effect when all three nodes are scaled.
+
+## Viewing usage
+{: #view-usage}
 
 Go to **Manage > Billing and usage** in the {{site.data.keyword.cloud_notm}} console. For more information, see [Viewing your usage](/docs/billing-usage?topic=billing-usage-viewingusage).
