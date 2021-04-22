@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2021
-lastupdated: "2021-04-21"
+lastupdated: "2021-04-22"
 
 keywords: access token, "{{site.data.keyword.ihsdbaas_full}} APIs", API key
 
@@ -519,6 +519,7 @@ Find what you are looking for in the compilation of topics that are available in
 * [Can I own and manage my data encryption keys?](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-faqs-general#keep-or-bring-your-own-key)
 
 [FAQs about usage](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-faqs-usage)
+* [How can I change my password?](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-faqs-usage#change-password)
 * [How can I prevent data loss from hardware failure?](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-faqs-usage#protect-from-failure)
 * [Do I need to enable the replication to secondary nodes manually?](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-faqs-usage#replication-by-default)
 * [Can {{site.data.keyword.ihsdbaas_full}} back up my data automatically?](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-faqs-usage#automatic-backup)
