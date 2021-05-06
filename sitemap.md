@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2021
-lastupdated: "2021-04-26"
+lastupdated: "2021-05-06"
 
 keywords: access token, "{{site.data.keyword.ihsdbaas_full}} APIs", API key
 
@@ -106,17 +106,17 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)
 
-[Supported version](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#mongodb_supported_version)
+* [Supported version](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#mongodb_supported_version)
 
-[Prerequisites](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#prerequisite)
+* [Prerequisites](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#prerequisite)
 
-[Step 1. Create a service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#creating-a-database-cluster-introduction)
+* [Step 1. Create a service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#creating-a-database-cluster-introduction)
 
-[Step 2. Connect to databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#accessing-database-introduction)
+* [Step 2. Connect to databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#accessing-database-introduction)
 
-[ Step 3. Manage the database cluster](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#managing-database-cluster-introduction)
+* [ Step 3. Manage the database cluster](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#managing-database-cluster-introduction)
 
-[Step 4 (Optional). Migrate from {{site.data.keyword.mongodb}} databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#migrating-from-mongodb)
+* [Step 4 (Optional). Migrate from {{site.data.keyword.mongodb}} databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted#migrating-from-mongodb)
 
 
 ## About
@@ -144,11 +144,11 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Pricing](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-pricing)
 
-[Estimating costs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-pricing#estimate-costs)
+* [Estimating costs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-pricing#estimate-costs)
 
-[Scaling resources](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-pricing#scale-resources)
+* [Scaling resources](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-pricing#scale-resources)
 
-[Viewing usage](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-pricing#view-usage)
+* [Viewing usage](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-pricing#view-usage)
 
 
 ## Compliance
@@ -157,11 +157,11 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Compliance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-compliance)
 
-[ISO 27001, 27017, 27018](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-compliance#iso)
+* [ISO 27001, 27017, 27018](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-compliance#iso)
 
-[General Data Protection Regulation (GDPR)](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-compliance#gdpr)
+* [General Data Protection Regulation (GDPR)](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-compliance#gdpr)
 
-[HIPAA-ready](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-compliance#hipaa-ready)
+* [HIPAA-ready](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-compliance#hipaa-ready)
 
 
 ## Release notes
@@ -170,31 +170,33 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Release notes](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new)
 
-[7 April 2021](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#apr-2021)
+* [TBD May 2021](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#may-2021)
 
-[25 February 2021](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#feb-2021)
+* [7 April 2021](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#apr-2021)
 
-[23 December 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#dec-23-2020)
+* [25 February 2021](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#feb-2021)
 
-[15 December 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#dec-2020)
+* [23 December 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#dec-23-2020)
 
-[25 November 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#nov-2020)
+* [15 December 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#dec-2020)
 
-[14 October 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#october-2020)
+* [25 November 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#nov-2020)
 
-[23 June 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#June-2020)
+* [14 October 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#october-2020)
 
-[19 February 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#Feb-2020)
+* [23 June 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#June-2020)
 
-[20 December 2019](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#Dec-2019)
+* [19 February 2020](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#Feb-2020)
 
-[23 September 2019](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#Sep23-2019)
+* [20 December 2019](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#Dec-2019)
 
-[13 September 2019](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#Sep13-2019)
+* [23 September 2019](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#Sep23-2019)
 
-[28 August 2019](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#Aug-2019)
+* [13 September 2019](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#Sep13-2019)
 
-[21 June 2019](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#June-2019)
+* [28 August 2019](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#Aug-2019)
+
+* [21 June 2019](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#June-2019)
 
 
 ## Enhancing security of your deployed application
@@ -228,9 +230,9 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Setting up the CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-install-dbaas-cli-plugin)
 
-[Installing the {{site.data.keyword.cloud_notm}} CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-install-dbaas-cli-plugin#install-ibm-cli)
+* [Installing the {{site.data.keyword.cloud_notm}} CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-install-dbaas-cli-plugin#install-ibm-cli)
 
-[Installing the DBaaS CLI components (by operating system)](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-install-dbaas-cli-plugin#dbaas_cli_instr)
+* [Installing the DBaaS CLI components (by operating system)](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-install-dbaas-cli-plugin#dbaas_cli_instr)
 
 
 ## Setting up the APIs
@@ -239,9 +241,9 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Setting up the APIs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-api-setup)
 
-[Setting up authentication](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-api-setup#api-auth)
+* [Setting up authentication](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-api-setup#api-auth)
 
-[General instructions for using the APIs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-api-setup#gen_inst_mgr_apis)
+* [General instructions for using the APIs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-api-setup#gen_inst_mgr_apis)
 
 
 ## Creating a service instance
@@ -250,15 +252,15 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Creating a service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service)
 
-[Before you begin](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#create-service-prerequisite)
+* [Before you begin](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#create-service-prerequisite)
 
-[Creating a service instance in the UI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#webui-create-service)
+* [Creating a service instance in the UI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#webui-create-service)
 
-[Creating a service instance from the CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#cli-create-service)
+* [Creating a service instance from the CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#cli-create-service)
 
-[Creating a service instance with the API](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#api-create-service)
+* [Creating a service instance with the API](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#api-create-service)
 
-[What's next](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#create-connect)
+* [What's next](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#create-connect)
 
 
 ## Managing your service instance
@@ -267,9 +269,9 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service)
 
-[Viewing information about your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service#show_detail_service)
+* [Viewing information about your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service#show_detail_service)
 
-[Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service#manage-service-how)
+* [Managing your service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-service#manage-service-how)
 
 
 ## Scaling RAM, disk, and vCPU
@@ -278,13 +280,13 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Scaling RAM, disk, and vCPU](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling)
 
-[Resource breakdown](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#resources-breakdown)
+* [Resource breakdown](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#resources-breakdown)
 
-[Scaling considerations](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#scaling-considerations)
+* [Scaling considerations](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#scaling-considerations)
 
-[Scaling instructions](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#scaling-instructions)
+* [Scaling instructions](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#scaling-instructions)
 
-[ Converting to the flexible pricing plan](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#pricing-plan-switch)
+* [ Converting to the flexible pricing plan](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#pricing-plan-switch)
 
 
 ## Viewing information about databases
@@ -293,11 +295,11 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Viewing information about databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-databases)
 
-[Viewing information about databases in the UI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-databases#viewing-information-about-databases-in-the-ui)
+* [Viewing information about databases in the UI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-databases#viewing-information-about-databases-in-the-ui)
 
-[Viewing information about databases from the CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-databases#viewing-information-about-databases-from-the-cli)
+* [Viewing information about databases from the CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-databases#viewing-information-about-databases-from-the-cli)
 
-[Viewing information about databases with the API](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-databases#viewing-information-about-databases-with-the-api)
+* [Viewing information about databases with the API](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-databases#viewing-information-about-databases-with-the-api)
 
 
 ## Viewing information about database users
@@ -306,11 +308,11 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Viewing information about database users](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-database-users)
 
-[Viewing information about database users in the UI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-database-users#viewing-information-about-database-users-in-the-ui)
+* [Viewing information about database users in the UI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-database-users#viewing-information-about-database-users-in-the-ui)
 
-[Viewing information about database users from the CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-database-users#viewing-information-about-database-users-from-the-cli)
+* [Viewing information about database users from the CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-database-users#viewing-information-about-database-users-from-the-cli)
 
-[Viewing information about database users with the API](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-database-users#viewing-information-about-database-users-with-the-api)
+* [Viewing information about database users with the API](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-database-users#viewing-information-about-database-users-with-the-api)
 
 
 ## Viewing information about nodes
@@ -319,9 +321,9 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Viewing information about nodes](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-nodes)
 
-[Checking node status](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-nodes#check-node-status)
+* [Checking node status](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-nodes#check-node-status)
 
-[Getting logs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-nodes#get-logs)
+* [Getting logs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-nodes#get-logs)
 
 
 ## Logging and monitoring
@@ -397,15 +399,15 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Upgrading to a new major version](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version)
 
-[Before you begin](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version#before-begin)
+* [Before you begin](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version#before-begin)
 
-[Step 1. Create a dump file for backing up the original databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version#step1-create-dump-file)
+* [Step 1. Create a dump file for backing up the original databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version#step1-create-dump-file)
 
-[Step 2. Create a new service instance with suitable resource allocation values](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version#step2-create-new-instance)
+* [Step 2. Create a new service instance with suitable resource allocation values](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version#step2-create-new-instance)
 
-[Step 3. Restore the data to the new service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version#step3-restore-data)
+* [Step 3. Restore the data to the new service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version#step3-restore-data)
 
-[What's next](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version#whats-next)
+* [What's next](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-upgrade-version#whats-next)
 
 
 ## Migrating {{site.data.keyword.mongodb}} databases to {{site.data.keyword.ihsdbaas_mongodb_full}}
@@ -414,15 +416,15 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Migrating {{site.data.keyword.mongodb}} databases to {{site.data.keyword.ihsdbaas_mongodb_full}}](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb)
 
-[Before you begin](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb#migration_mongodb_before_begin)
+* [Before you begin](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb#migration_mongodb_before_begin)
 
-[Step 1. Create a dump file for restoring the original databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb#step1_create_dump_file)
+* [Step 1. Create a dump file for restoring the original databases](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb#step1_create_dump_file)
 
-[Step 2. Create a new {{site.data.keyword.ihsdbaas_mongodb_full}} service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb#step2_creat_new_service_instance)
+* [Step 2. Create a new {{site.data.keyword.ihsdbaas_mongodb_full}} service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb#step2_creat_new_service_instance)
 
-[Step 3. Restore the data from the dump file to the new service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb#step3_restore_data)
+* [Step 3. Restore the data from the dump file to the new service instance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb#step3_restore_data)
 
-[What's next](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb#whats_next_migration_mongodb)
+* [What's next](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-migration_mongodb#whats_next_migration_mongodb)
 
 
 ## Hyper Protect DBaaS RESTful APIs
@@ -436,21 +438,21 @@ Find what you are looking for in the compilation of topics that are available in
 
 [{{site.data.keyword.ihsdbaas_mongodb_full}} CLI plug-in](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin)
 
-[Prerequisites](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#prerequisites_dbaas_cli_plugin)
+* [Prerequisites](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#prerequisites_dbaas_cli_plugin)
 
-[CLI plug-in usage command](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#plugin_use)
+* [CLI plug-in usage command](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#plugin_use)
 
-[Cluster commands](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#cluster_cmds)
+* [Cluster commands](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#cluster_cmds)
 
-[Database command](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#db_cmds)
+* [Database command](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#db_cmds)
 
-[Database User commands](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#user_cmds)
+* [Database User commands](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#user_cmds)
 
-[Node command](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#node_cmds)
+* [Node command](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#node_cmds)
 
-[Log commands](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#log-commands)
+* [Log commands](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#log-commands)
 
-[Task commands](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#task-cmds)
+* [Task commands](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin#task-cmds)
 
 
 ## Service integration
@@ -466,13 +468,13 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Understanding your responsibilities when using {{site.data.keyword.ihsdbaas_full}}](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-responsibilities-hpdbass)
 
-[Incident and operations management](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-responsibilities-hpdbass#incident-and-ops-responsibilities)
+* [Incident and operations management](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-responsibilities-hpdbass#incident-and-ops-responsibilities)
 
-[Change management](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-responsibilities-hpdbass#change-management-responsibilities)
+* [Change management](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-responsibilities-hpdbass#change-management-responsibilities)
 
-[Security and regulation compliance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-responsibilities-hpdbass#security-responsibilities)
+* [Security and regulation compliance](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-responsibilities-hpdbass#security-responsibilities)
 
-[Disaster recovery](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-responsibilities-hpdbass#disaster-recovery-responsibilities)
+* [Disaster recovery](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-responsibilities-hpdbass#disaster-recovery-responsibilities)
 
 
 ## Open-source licenses
@@ -481,11 +483,11 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Open-source licenses](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-open-source-licenses)
 
-[{{site.data.keyword.ihsdbaas_mongodb_full}} notices and information](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-open-source-licenses#hpdbaas-mongodb-notice)
+* [{{site.data.keyword.ihsdbaas_mongodb_full}} notices and information](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-open-source-licenses#hpdbaas-mongodb-notice)
 
-[Host Appliance notices and information](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-open-source-licenses#host-appliance-notices)
+* [Host Appliance notices and information](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-open-source-licenses#host-appliance-notices)
 
-[Other CC-BY-SA licenses](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-open-source-licenses#other-ccbysa-licenses)
+* [Other CC-BY-SA licenses](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-open-source-licenses#other-ccbysa-licenses)
 
 
 ## Related links
@@ -494,15 +496,15 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Related links](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links)
 
-[Videos](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links#videos)
+* [Videos](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links#videos)
 
-[Blogs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links#blogs)
+* [Blogs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links#blogs)
 
-[Tutorials and code patterns](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links#tutorials-code-patterns)
+* [Tutorials and code patterns](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links#tutorials-code-patterns)
 
-[More about {{site.data.keyword.cloud_notm}} Hyper Protect services](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links#more-websites)
+* [More about {{site.data.keyword.cloud_notm}} Hyper Protect services](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links#more-websites)
 
-[Related {{site.data.keyword.IBM_notm}} service documentation](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links#related-service-doc)
+* [Related {{site.data.keyword.IBM_notm}} service documentation](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-related-links#related-service-doc)
 
 
 ## FAQs

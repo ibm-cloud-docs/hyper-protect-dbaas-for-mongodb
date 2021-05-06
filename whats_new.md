@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-04-21"
+lastupdated: "2021-05-06"
 
 keywords: release note, new, added, changed, deleted
 
@@ -97,6 +97,14 @@ subcollection: hyper-protect-dbaas-for-mongodb
 
 Stay up to date with the new features that are available for {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}.
 {: shortdesc}
+
+## TBD May 2021
+{: #may-2021}
+
+### Changed: Automatic handling in tolerance situations
+{: #changed-tolerance}
+
+In the tolerance situation during [creating](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service), [disabling](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security#service-delete), and [restoring](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security#service-restore) service instances, operations on the pending node will be completed automatically later instead of by SRE.
 
 ## 7 April 2021
 {: #apr-2021}
