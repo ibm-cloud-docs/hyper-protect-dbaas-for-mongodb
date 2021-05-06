@@ -104,7 +104,7 @@ Stay up to date with the new features that are available for {{site.data.keyword
 ### Changed: Automatic handling in tolerance situations
 {: #changed-tolerance}
 
-In the tolerance situation during [creating](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service), [disabling](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security#service-delete), and [restoring](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security#service-restore) service instances, operations on the pending node will be completed automatically later instead of by SRE.
+In the tolerance situation during [creating](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service), [disabling](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security#service-delete), and [restoring](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security#service-restore) service instances, operations on the pending node will be completed automatically later (previously by SRE).
 
 ## 7 April 2021
 {: #apr-2021}
