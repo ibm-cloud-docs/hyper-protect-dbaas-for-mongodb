@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-04-21"
+lastupdated: "2021-05-12"
 
 keywords: migrate, restore
 
@@ -95,7 +95,7 @@ subcollection: hyper-protect-dbaas-for-mongodb
 # Migrating {{site.data.keyword.mongodb}} databases to {{site.data.keyword.ihsdbaas_mongodb_full}}
 {: #migration_mongodb}
 
-If you're using {{site.data.keyword.mongodb}} databases and want to migrate to {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}, follow the instructions below. It doesn't matter where your {{site.data.keyword.mongodb}} databases are hosted, as long as the platform provides {{site.data.keyword.mongodb}} database services.
+If you're using {{site.data.keyword.mongodb}} databases and want to migrate to {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}, follow the instructions in this topic. It doesn't matter where your {{site.data.keyword.mongodb}} databases are hosted, as long as the platform provides {{site.data.keyword.mongodb}} database services.
 {: shortdesc}
 
 ## Before you begin

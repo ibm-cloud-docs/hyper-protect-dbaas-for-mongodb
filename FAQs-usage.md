@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-04-22"
+lastupdated: "2021-05-12"
 
 keywords: frequently asked questions, database
 
@@ -105,7 +105,7 @@ You can use the following FAQs to help you with {{site.data.keyword.cloud}} {{si
 {: faq}
 {: support}
 
-After you connect to the databases, follow the instructions in the [MongoDB documentation](https://docs.mongodb.com/manual/reference/method/db.changeUserPassword/){: external} to change the database admin password that you set when you created the service instance. You need to follow the same rules to set the new password. The password needs to contain 15 characters minimum, at least one uppercase character, one lowercase character, and one digit. Don't use special characters such as & and #.
+After you connect to the databases, follow the instructions in the [MongoDB documentation](https://docs.mongodb.com/manual/reference/method/db.changeUserPassword/){: external} to change the database admin password that you set when you created the service instance. You need to follow the same rules to set the new password. The password needs to contain 15 characters minimum, at least one uppercase character, one lowercase character, and one digit. Don't use special characters such as `&` and `#`.
 
 ## How can I prevent data loss from hardware failure?
 {: #protect-from-failure}
