@@ -1,0 +1,66 @@
+{
+    "title": "Hyper Protect DBaaS for MongoDB docs",
+    "lastupdated": "2021-05-17",
+    "introduction": "Welcome to the Hyper Protect DBaaS for MongoDB documentation, where you can find information about how to create and use Hyper Protect DBaaS for MongoDB service instances. This page also provides other related content for your reference. Hyper Protect DBaaS for MongoDB offers secure cloud database environments that have technology-enforced protection and high availability.",
+    "section_devtools": {
+      "api": "/apidocs/hyperp-dbaas/hyperp-dbaas-v3", 
+      "cli": "/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-dbaas_cli_plugin"
+    },
+    "section_recommended": [
+      {
+        "title": "Getting started with IBM Cloud Hyper Protect DBaaS for MongoDB",
+        "description": "Get started with a few steps without the need for specialized database skills.",
+        "href": "/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted"
+      },
+      {
+        "title": "Securing your data",
+        "description": "Learn about how your data is protected in Hyper Protect DBaaS and how you can securely delete your data.",
+        "href": "/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security"
+      },
+      {
+        "title": "Scaling RAM, disk, and vCPU",
+        "description": "You can manually adjust the amount of resources available to your service instance to suit your workload and the size of your data.",
+        "href": "/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling"
+      }
+    ],
+    "section_videos": [
+      {
+        "title": "Getting Started with IBM Cloud Hyper Protect DBaaS",
+        "href": "https://mediacenter.ibm.com/media/0_2wa8vkxt", 
+        "thumbnail": "/images/video-thumbnail-gettingstarted.png" 
+      },
+      {
+        "title": "IBM Cloud Hyper Protect DBaaS–flexible pricing & vertical scaling",
+        "href": "https://mediacenter.ibm.com/media/1_xr1y01a4",
+        "thumbnail": "/images/video-thumbnail-scaling.png"
+      },
+      {
+        "title": "IBM Cloud Hyper Protect DBaaS and Keep Your Own Key",
+        "href": "https://mediacenter.ibm.com/media/0_35qih8zo",
+        "thumbnail": "/images/video-thumbnail-KYOK.png"
+      },
+      {
+        "title": "Hyper Protect DBaaS Overview - Extended",
+        "href": "https://mediacenter.ibm.com/media/1_qshrbi5f",
+        "thumbnail": "/images/video-thumbnail-overviewextended.png"
+      },
+      {
+        "title": "Hyper Protect DBaaS Overview",
+        "href": "https://mediacenter.ibm.com/media/1_na8bdczg",
+        "thumbnail": "/images/video-thumbnail-overview.png"
+      }
+    ],
+    "section_learn": {
+      "developer": "https://developer.ibm.com/components/hyper-protect/"
+    },
+    "section_updates": {
+      "view_more": "/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new",
+      "tiles": [
+        {
+          "date": "TBD May 2021",
+          "title": "Automatic handling in tolerance situations",
+          "description": "In the tolerance situation during creating, disabling, and restoring service instances, operations on the pending node will be completed automatically later (previously by SRE)."
+        }
+      ]
+    }
+  }
