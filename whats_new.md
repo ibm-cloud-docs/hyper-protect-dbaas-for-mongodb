@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-05-17"
+lastupdated: "2021-05-18"
 
 keywords: release note, new, added, changed, deleted
 
@@ -105,6 +105,11 @@ Stay up to date with the new features that are available for {{site.data.keyword
 {: #changed-tolerance}
 
 In the tolerance situation during [creating](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service), [disabling](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security#service-delete), and [restoring](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security#service-restore) service instances, operations on the pending node will be completed automatically later (previously by SRE).
+
+### Changed: {{site.data.keyword.cloudaccesstrailshort}} and {{site.data.keyword.loganalysisshort_notm}} are available in Sydney for {{site.data.keyword.ihsdbaas_postgresql_full}}
+{: #changed-at-loganalysis-regions}
+
+If you want to integrate [{{site.data.keyword.cloudaccesstrailshort}}](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-activity-tracker-events) or [{{site.data.keyword.loganalysisshort_notm}}](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-sendlogs) with your {{site.data.keyword.ihsdbaas_postgresql_full}} service instance in `Sydney (au-syd)`, you need to have an {{site.data.keyword.cloudaccesstrailshort}} or {{site.data.keyword.loganalysisshort_notm}} service instance also in `Sydney (au-syd)` (previously `Dallas (us-south)`).
 
 ### Added: Landing page
 {: #added-landing-page}
