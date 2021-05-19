@@ -135,33 +135,33 @@ The following is an example of creating a {{site.data.keyword.ihsdbaas_mongodb_f
 
 1. Create a Terraform configuration file that is named `main.tf`. In this file, you declare the {{site.data.keyword.ihsdbaas_mongodb_full}} service instance that you want to provision. The following example creates a {{site.data.keyword.ihsdbaas_mongodb_full}} service instance that is named `0001-mongodb` in the `us-south` region. For more information about `ibm_resource_instance`, see the [`ibm_resource_instance` documentation](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/resource_instance){: external}. 
    
-   ```
-   data "ibm_resource_group" "group" {
-     name = "default"
-   }
+```
+data "ibm_resource_group" "group" {
+  name = "default"
+}
 
-   resource "ibm_resource_instance" "myhpdbcluster" {
-     name = "0001-mongodb"
-     service = "hyperp-dbaas-mongodb"
-     plan = "mongodb-free"
-     location = "us-south"
-     resource_group_id = data.ibm_resource_group.group.id
+resource "ibm_resource_instance" "myhpdbcluster" {
+  name = "0001-mongodb"
+  service = "hyperp-dbaas-mongodb"
+  plan = "mongodb-free"
+  location = "us-south"
+  resource_group_id = data.ibm_resource_group.group.id
 
-     timeouts {
-       create = "15m"
-       update = "15m"
-       delete = "15m"
-     }
-     parameters = {
-       "name": "cluster01",
-       "admin_name": "admin",
-       "password": "Hyperprotectdbaas0001"
-       "confirm_password": "Hyperprotectdbaas0001",
-       "db_version": "4.4"
-     }
-   }
-   ```
-   {: codeblock}
+  timeouts {
+    create = "15m"
+    update = "15m"
+    delete = "15m"
+  }
+  parameters = {
+    "name": "cluster01",
+    "admin_name": "admin",
+    "password": "Hyperprotectdbaas0001"
+    "confirm_password": "Hyperprotectdbaas0001",
+    "db_version": "4.4"
+  }
+}
+```
+{: codeblock}
 
 | Parameter        |  Definition                                                    |
 | ---------------- |  -------------------------------------------------------------- |
@@ -178,21 +178,21 @@ The following is an example of creating a {{site.data.keyword.ihsdbaas_mongodb_f
 {: caption="Table 1. Parameter reference" caption-side="top"}
    
 2. Initialize the Terraform CLI. 
-   ```
-   terraform init
-   ```
-   {: pre}
+```
+terraform init
+```
+{: pre}
    
 3. Create a Terraform execution plan. The Terraform execution plan summarizes all the actions that need to be run to create the {{site.data.keyword.ihsdbaas_mongodb_full}} service instance in your account.
-   ```
-   terraform plan
-   ```
-   {: pre}
+```
+terraform plan
+```
+{: pre}
    
 4. Create the {{site.data.keyword.ihsdbaas_mongodb_full}} service instance in {{site.data.keyword.cloud_notm}}.
-   ```
-   terraform apply
-   ```
-   {: pre}
+```
+terraform apply
+```
+{: pre}
    
 5. From the [{{site.data.keyword.cloud_notm}} resource dashboard](https://cloud.ibm.com/resources){: external}, find the {{site.data.keyword.ihsdbaas_mongodb_full}} service instance that you created.
