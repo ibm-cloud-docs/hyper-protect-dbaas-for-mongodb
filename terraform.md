@@ -163,19 +163,19 @@ The following is an example of creating a {{site.data.keyword.ihsdbaas_mongodb_f
    ```
    {: codeblock}
 
-   | Parameter        |  Definition                                                    |
-   | ---------------- |  -------------------------------------------------------------- |
-   | *name* | The name of your database cluster. |
-   | *admin_name* | The administrator's user name of the database to be created. |
-   | *password* | The administrator's user password of the database to be created. You need to create a strong password with a minimum of **15 characters**, at least **one uppercase** character, **one lowercase** character, and **one digit**. Don't use special characters such as `&` and `#`. |
-   | *confirm_password* | The same password. |
-   | *cpu* | Total number of dedicated CPU cores. For the valid value range of *cpu*, *memory*, and *storage*, see the [value table](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#before-scaling). |
-   | *memory* | Total memory allocation in GiB. |
-   | *storage* | Total disk allocation in GiB. |
-   | *kms_instance* | (Optional) Valid CRN of the selected KMS (key management service) instance. |
-   | *kms_key* | (Optional, paired with *kms_instance*) UUID of the selected root key. |
-   | *db_version*| (Optional) Supports {{site.data.keyword.mongodb}} 4.4 only. |
-   {: caption="Table 1. Parameter reference" caption-side="top"}
+| Parameter        |  Definition                                                    |
+| ---------------- |  -------------------------------------------------------------- |
+| *name* | The name of your database cluster. |
+| *admin_name* | The administrator's user name of the database to be created. |
+| *password* | The administrator's user password of the database to be created. You need to create a strong password with a minimum of **15 characters**, at least **one uppercase** character, **one lowercase** character, and **one digit**. Don't use special characters such as `&` and `#`. |
+| *confirm_password* | The same password. |
+| *cpu* | Total number of dedicated CPU cores. For the valid value range of *cpu*, *memory*, and *storage*, see the [value table](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#before-scaling). |
+| *memory* | Total memory allocation in GiB. |
+| *storage* | Total disk allocation in GiB. |
+| *kms_instance* | (Optional) Valid CRN of the selected KMS (key management service) instance. |
+| *kms_key* | (Optional, paired with *kms_instance*) UUID of the selected root key. |
+| *db_version*| (Optional) Supports {{site.data.keyword.mongodb}} 4.4 only. |
+{: caption="Table 1. Parameter reference" caption-side="top"}
    
 2. Initialize the Terraform CLI. 
    ```
