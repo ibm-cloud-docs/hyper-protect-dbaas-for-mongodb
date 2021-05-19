@@ -175,7 +175,7 @@ The following is an example of creating a {{site.data.keyword.ihsdbaas_mongodb_f
    | *kms_instance* | (Optional) Valid CRN of the selected KMS (key management service) instance. |
    | *kms_key* | (Optional, paired with *kms_instance*) UUID of the selected root key. |
    | *db_version*| (Optional) Supports {{site.data.keyword.mongodb}} 4.4 only. |
-   {: caption="Table 1. parameter reference" caption-side="top"}
+   {: caption="Table 1. Parameter reference" caption-side="top"}
    
 2. Initialize the Terraform CLI. 
    ```
