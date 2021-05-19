@@ -176,7 +176,7 @@ resource "ibm_resource_instance" "myhpdbcluster" {
 | *kms_key* | (Optional, paired with *kms_instance*) UUID of the selected root key. |
 | *db_version*| (Optional) Supports {{site.data.keyword.mongodb}} 4.4 only. |
 {: caption="Table 1. Parameter reference" caption-side="top"}
-   
+
 2. Initialize the Terraform CLI. 
 ```
 terraform init
