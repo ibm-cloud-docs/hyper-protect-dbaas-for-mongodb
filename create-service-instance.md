@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-05-12"
+lastupdated: "2021-05-19"
 
 keywords: database cluster, create service instance, DBaaS dashboard
 
@@ -136,7 +136,7 @@ Make sure you are familiarized with the following information. **Especially if y
 {: shortdesc}
 
 ```
-ibmcloud resource service-instance-create MyDBaaSIns03 hyperp-dbaas-mongodb mongodb-flexible us-south -p '{"name":"DBaaSTestCLICluster03", "admin_name":"admin","password":"passWORD4User19", "confirm_password":"passWORD4User19", "cpu":2, "memory":"2GiB", "storage":"5GiB", "license_agree":["agreed"], "kms_instance":"crn:v1:bluemix:public:kms:us-south:a/5b9cd17284125db65be173928b05bd50:e0e6a08c-f751-45ce-835f-9db8d01ff54a::", "kms_key":"66f22ec7-1ca9-4ad4-bdae-4ad949470a7c", "db_version":"4.4"}'  --service-endpoints private
+ibmcloud resource service-instance-create MyDBaaSIns03 hyperp-dbaas-mongodb mongodb-flexible us-south -p '{"name":"DBaaSTestCLICluster03", "admin_name":"admin","password":"passWORD4User19", "confirm_password":"passWORD4User19", "cpu":2, "memory":"2GiB", "storage":"5GiB", "kms_instance":"crn:v1:bluemix:public:kms:us-south:a/5b9cd17284125db65be173928b05bd50:e0e6a08c-f751-45ce-835f-9db8d01ff54a::", "kms_key":"66f22ec7-1ca9-4ad4-bdae-4ad949470a7c", "db_version":"4.4"}'  --service-endpoints private
 ```
 {: codeblock}
 
@@ -158,7 +158,6 @@ Where the parameters have the following definitions:
 | *admin_name* | The administrator's user name of the database to be created. |
 | *password* | The administrator's user password of the database to be created. You need to create a strong password with a minimum of **15 characters**, at least **one uppercase** character, **one lowercase** character, and **one digit**. Don't use special characters such as `&` and `#`. |
 | *confirm_password* | The same password. |
-| *license_agree* | A value of `agreed` indicates acceptance of the license agreement, which is required to use {{site.data.keyword.ihsdbaas_mongodb_full}}. |
 | *cpu* | Total number of dedicated CPU cores. For the valid value range of *cpu*, *memory*, and *storage*, see the [value table](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#before-scaling). |
 | *memory* | Total memory allocation in GiB. |
 | *storage* | Total disk allocation in GiB. |
