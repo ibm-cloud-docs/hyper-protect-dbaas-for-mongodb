@@ -174,7 +174,6 @@ The following is an example of creating a {{site.data.keyword.ihsdbaas_mongodb_f
   {: pre}
    
 4. Create the {{site.data.keyword.ihsdbaas_mongodb_full}} service instance in {{site.data.keyword.cloud_notm}}.
-
   ```
   terraform apply
   ```
