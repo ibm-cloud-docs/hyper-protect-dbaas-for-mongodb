@@ -133,7 +133,7 @@ Terraform on {{site.data.keyword.cloud}} enables predictable and consistent prov
 
 The following is an example of creating a {{site.data.keyword.ihsdbaas_mongodb_full}} service instance in Terraform.
 
-1. Create a Terraform configuration file that is named `main.tf`. In this file, you declare the {{site.data.keyword.ihsdbaas_mongodb_full}} service instance that you want to provision. The following example creates a {{site.data.keyword.ihsdbaas_mongodb_full}} service instance that is named `0001-mongodb` in the `us-south` region. For **detailed parameter reference**, see the tables in the [documentation](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#cli-create-service). For more information about `ibm_resource_instance`, see the [`ibm_resource_instance` documentation](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/resource_instance){: external}. 
+1. Create a Terraform configuration file that is named `main.tf`. In this file, you declare the {{site.data.keyword.ihsdbaas_mongodb_full}} service instance that you want to provision. The following example creates a {{site.data.keyword.ihsdbaas_mongodb_full}} service instance that is named `0001-mongodb` in the `us-south` region. For more information about `ibm_resource_instance`, see the [`ibm_resource_instance` documentation](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/resource_instance){: external}. 
    
    ```
    data "ibm_resource_group" "group" {
@@ -162,6 +162,20 @@ The following is an example of creating a {{site.data.keyword.ihsdbaas_mongodb_f
    }
    ```
    {: codeblock}
+
+   | Parameter        |  Definition                                                    |
+   | ---------------- |  -------------------------------------------------------------- |
+   | *name* | The name of your database cluster. |
+   | *admin_name* | The administrator's user name of the database to be created. |
+   | *password* | The administrator's user password of the database to be created. You need to create a strong password with a minimum of **15 characters**, at least **one uppercase** character, **one lowercase** character, and **one digit**. Don't use special characters such as `&` and `#`. |
+   | *confirm_password* | The same password. |
+   | *cpu* | Total number of dedicated CPU cores. For the valid value range of *cpu*, *memory*, and *storage*, see the [value table](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-resources-scaling#before-scaling). |
+   | *memory* | Total memory allocation in GiB. |
+   | *storage* | Total disk allocation in GiB. |
+   | *kms_instance* | (Optional) Valid CRN of the selected KMS (key management service) instance. |
+   | *kms_key* | (Optional, paired with *kms_instance*) UUID of the selected root key. |
+   | *db_version*| (Optional) Supports {{site.data.keyword.mongodb}} 4.4 only. |
+   {: caption="Table 1. parameter reference" caption-side="top"}
    
 2. Initialize the Terraform CLI. 
    ```
