@@ -246,6 +246,17 @@ Find what you are looking for in the compilation of topics that are available in
 * [General instructions for using the APIs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-api-setup#gen_inst_mgr_apis)
 
 
+## Setting up Terraform for Hyper Protect DBaaS
+{: #sitemap_setting_up_terraform_for_hyper_protect_dbaas}
+
+
+[Setting up Terraform for Hyper Protect DBaaS](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-terraform-setup)
+
+* [Installing the Terraform CLI and configure the IBM Cloud Provider plug-in](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-terraform-setup#setup-configure)
+
+* [Working with {{site.data.keyword.ihsdbaas_mongodb_full}} resources in Terraform](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-terraform-setup#work-with-dbaas-resources)
+
+
 ## Creating a service instance
 {: #sitemap_creating_a_service_instance}
 
