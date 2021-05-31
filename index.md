@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-05-12"
+lastupdated: "2021-05-31"
 
 keywords: hyper protect dbaas, hyper protect dbaas for mongodb, mongodb, cloud database, data security, secure database, encrypted database
 
@@ -77,6 +77,7 @@ subcollection: hyper-protect-dbaas-for-mongodb
 {:swift: data-hd-programlang="swift"}
 {:table: .aria-labeledby="caption"}
 {:term: .term}
+{:terraform: .ph data-hd-interface='terraform'}
 {:tip: .tip}
 {:tooling-url: data-tooling-url-placeholder='tooling-url'}
 {:troubleshoot: data-hd-content-type='troubleshoot'}
@@ -205,7 +206,7 @@ The CA file that you download from the dashboard contains root and intermediate 
 To use the mongo shell to connect to your databases, run the following command. You can copy the command from the service dashboard. For more information about the mongo shell, see the [mongo shell documentation](https://docs.mongodb.com/manual/mongo/){: external}.
 
 ```
-# mongo 'mongodb://<host_name_1>:<port_1>,\
+mongo 'mongodb://<host_name_1>:<port_1>,\
 <host_name_2>:<port_2>,\
 <host_name_3>:<port_3>/admin?replicaSet=<cluster_name>' \
 --tls --username <user_name> --password <password> --tlsCAFile <CAFile>
