@@ -57,12 +57,12 @@
       "view_more": "/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new",
       "tiles": [
         {
-          "date": "TBD May 2021",
+          "date": "2 June 2021",
           "title": "Changed: Automatic handling in tolerance situations",
           "description": "In the tolerance situation during creating, disabling, and restoring service instances, operations on the pending node will be completed automatically later (previously by SRE)."
         },
         {
-          "date": "TBD May 2021",
+          "date": "2 June 2021",
           "title": "Changed: Activity Tracker and Log Analysis are available in Sydney for Hyper Protect DBaaS for MongoDB",
           "description": "If you want to integrate Activity Tracker or Log Analysis with your Hyper Protect DBaaS for MongoDB service instance in `Sydney (au-syd)`, you need to have an Activity Tracker or Log Analysis service instance also in `Sydney (au-syd)` (previously `Dallas (us-south)`)."
         }
