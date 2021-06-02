@@ -141,6 +141,7 @@ The following is an example of creating a {{site.data.keyword.ihsdbaas_mongodb_f
       db_version: "4.4"
     }
   }
+  
   ```
   {: codeblock}
 
