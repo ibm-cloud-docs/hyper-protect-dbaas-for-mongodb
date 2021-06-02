@@ -101,8 +101,6 @@ Terraform on {{site.data.keyword.cloud}} enables predictable and consistent prov
 
 
 
-
-
 ## Step 1. Install the Terraform CLI and configure the IBM Cloud Provider plug-in
 {: #setup-configure}
 
@@ -141,7 +139,7 @@ The following is an example of creating a {{site.data.keyword.ihsdbaas_mongodb_f
       db_version: "4.4"
     }
   }
-  
+
   ```
   {: codeblock}
 
