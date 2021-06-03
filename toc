@@ -3,7 +3,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="hyper-protect-dbaas-for-mongodb" category="databases" audience="service" href="/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted" console-page="/catalog/services/hyper-protect-dbaas-for-mongodb" product-page="https://www.ibm.com/cloud/hyper-protect-dbaas" path="hyper-protect-dbaas-for-mongodb"}
+{: .toc subcollection="hyper-protect-dbaas-for-mongodb" category="databases" audience="service" href="/docs/hyper-protect-dbaas-for-mongodb" console-page="/catalog/services/hyper-protect-dbaas-for-mongodb" product-page="https://www.ibm.com/cloud/hyper-protect-dbaas" path="hyper-protect-dbaas-for-mongodb"}
 Hyper Protect DBaaS for MongoDB
 
     {: .navgroup id="learn"}
@@ -17,6 +17,7 @@ Hyper Protect DBaaS for MongoDB
         [What's DBaaS?](https://www.ibm.com/cloud/learn/dbaas)
         [Database security](https://www.ibm.com/cloud/learn/database-security)
     
+    pricing.md
     compliance.md
     whats_new.md
     {: .navgroup-end}
@@ -84,4 +85,5 @@ Hyper Protect DBaaS for MongoDB
         ts-clusterid.md
 
     help-support.md
+    sitemap.md
     {: .navgroup-end}

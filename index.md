@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-04-07"
+lastupdated: "2021-05-31"
 
 keywords: hyper protect dbaas, hyper protect dbaas for mongodb, mongodb, cloud database, data security, secure database, encrypted database
 
@@ -10,24 +10,93 @@ subcollection: hyper-protect-dbaas-for-mongodb
 
 ---
 
-{:shortdesc: .shortdesc}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:android: data-hd-operatingsystem="android"}
+{:api: .ph data-hd-interface='api'}
+{:apikey: data-credential-placeholder='apikey'}
+{:app_key: data-hd-keyref="app_key"}
+{:app_name: data-hd-keyref="app_name"}
+{:app_secret: data-hd-keyref="app_secret"}
+{:app_url: data-hd-keyref="app_url"}
+{:authenticated-content: .authenticated-content}
+{:beta: .beta}
+{:c#: data-hd-programlang="c#"}
+{:cli: .ph data-hd-interface='cli'}
 {:codeblock: .codeblock}
-{:important: .important}
-{:screen: .screen}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:pre: .pre}
-{:note: .note}
-{:term: .term}
-{:video: .video}
+{:curl: .ph data-hd-programlang='curl'}
+{:deprecated: .deprecated}
+{:dotnet-standard: .ph data-hd-programlang='dotnet-standard'}
+{:download: .download}
 {:external: target="_blank" .external}
+{:faq: data-hd-content-type='faq'}
+{:fuzzybunny: .ph data-hd-programlang='fuzzybunny'}
+{:generic: data-hd-operatingsystem="generic"}
+{:generic: data-hd-programlang="generic"}
+{:gif: data-image-type='gif'}
+{:go: .ph data-hd-programlang='go'}
 {:help: data-hd-content-type='help'}
+{:hide-dashboard: .hide-dashboard}
+{:hide-in-docs: .hide-in-docs}
+{:important: .important}
+{:ios: data-hd-operatingsystem="ios"}
+{:java: .ph data-hd-programlang='java'}
+{:java: data-hd-programlang="java"}
+{:javascript: .ph data-hd-programlang='javascript'}
+{:javascript: data-hd-programlang="javascript"}
+{:new_window: target="_blank"}
+{:note .note}
+{:note: .note}
+{:objectc data-hd-programlang="objectc"}
+{:org_name: data-hd-keyref="org_name"}
+{:php: data-hd-programlang="php"}
+{:pre: .pre}
+{:preview: .preview}
+{:python: .ph data-hd-programlang='python'}
+{:python: data-hd-programlang="python"}
+{:route: data-hd-keyref="route"}
+{:row-headers: .row-headers}
+{:ruby: .ph data-hd-programlang='ruby'}
+{:ruby: data-hd-programlang="ruby"}
+{:runtime: architecture="runtime"}
+{:runtimeIcon: .runtimeIcon}
+{:runtimeIconList: .runtimeIconList}
+{:runtimeLink: .runtimeLink}
+{:runtimeTitle: .runtimeTitle}
+{:screen: .screen}
+{:script: data-hd-video='script'}
+{:service: architecture="service"}
+{:service_instance_name: data-hd-keyref="service_instance_name"}
+{:service_name: data-hd-keyref="service_name"}
+{:shortdesc: .shortdesc}
+{:space_name: data-hd-keyref="space_name"}
+{:step: data-tutorial-type='step'}
+{:subsection: outputclass="subsection"}
 {:support: data-reuse='support'}
+{:swift: .ph data-hd-programlang='swift'}
+{:swift: data-hd-programlang="swift"}
+{:table: .aria-labeledby="caption"}
+{:term: .term}
+{:terraform: .ph data-hd-interface='terraform'}
+{:tip: .tip}
+{:tooling-url: data-tooling-url-placeholder='tooling-url'}
+{:troubleshoot: data-hd-content-type='troubleshoot'}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
+{:tsSymptoms: .tsSymptoms}
+{:tutorial: data-hd-content-type='tutorial'}
+{:ui: .ph data-hd-interface='ui'}
+{:unity: .ph data-hd-programlang='unity'}
+{:url: data-credential-placeholder='url'}
+{:user_ID: data-hd-keyref="user_ID"}
+{:vbnet: .ph data-hd-programlang='vb.net'}
+{:video: .video}
+
 
 # Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.ihsdbaas_mongodb_full}}
 {: #gettingstarted}
 
-{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} provides tamper-proof, enterprise cloud database environments with high availability for workloads with sensitive data. It offers a flexible platform that allows you to easily provision and manage your database of choice ({{site.data.keyword.mongodb}} and [{{site.data.keyword.postgresql}}](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)), without data security concerns.
+{{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_full}} provides tamper-proof, enterprise cloud database environments with high availability for workloads with sensitive data. It offers a flexible platform where you can easily provision and manage your database of choice ({{site.data.keyword.mongodb}} and [{{site.data.keyword.postgresql}}](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)), without data security concerns.
 {: shortdesc}
 
 For more information about the industry-leading data security level of {{site.data.keyword.ihsdbaas_mongodb_full}}, see [Securing your data in {{site.data.keyword.ihsdbaas_mongodb_full}}](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-data-security).
@@ -46,7 +115,7 @@ Watch the following video to find out how to get started with {{site.data.keywor
 
 Hi, welcome to this getting started video for IBM Cloud™ Hyper Protect DBaaS, an offering that allows you to easily provision and manage highly secure, high volume databases for your sensitive data without sacrificing performance.
 
-Every Hyper Protect DBaaS service instance contains a highly available three-node cluster with multi-zone region support. Built on LinuxONE technology, Hyper Protect DBaaS encrypts both data at rest and data in flight. It offers complete data confidentiality; not even the cloud admin has access to your data. It also supports many industry certifications, GDPR for example, and client regulatory compliance activities. And as you will see in the rest of this video, you can easily provision and monitor secure MongoDB or PostgreSQL databases without specialized database skills.
+Every Hyper Protect DBaaS service instance contains a highly available three-node cluster with multi-zone region support. Built on LinuxONE technology, Hyper Protect DBaaS encrypts both data at rest and data in flight. It offers complete data confidentiality; not even the cloud admin has access to your data. It also supports many industry certifications, GDPR, for example, and client regulatory compliance activities. And as you will see in the rest of this video, you can easily provision and monitor secure MongoDB or PostgreSQL databases without specialized database skills.
 
 In the following demo, you will learn how to create a Hyper protect DBaaS service instance, connect to your databases, and navigate the service dashboard.
 
@@ -66,7 +135,7 @@ Open MongoDB Compass. Paste your connection string. Click Fill in connection fie
 
 Let’s go back to the service dashboard.
 
-If you are using the flexible pricing plan, you can see the Resources label. On the resources page, you can manually adjust the amount of resources to suit your workload and the size of your data. If you are using the old fixed pricing plan (aka. Small, Medium, or Large), go to the Plan page first to convert you fixed pricing plan to the flexible plan and reload the dashboard to see the Resources page and scale your resources. Free service instances can't be converted or scaled.
+If you are using the flexible pricing plan, you can see the Resources label. On the resources page, you can manually adjust the amount of resources to suit your workload and the size of your data. If you are using the old fixed pricing plan (Small, Medium, or Large), go to the Plan page first to convert you fixed pricing plan to the flexible plan and reload the dashboard to see the Resources page and scale your resources. Free service instances can't be converted or scaled.
 
 On the Manage page, you can see the overall information of your service instance.
 
@@ -126,7 +195,7 @@ The tool that you use needs to be compatible with {{site.data.keyword.mongodb}} 
 
 To enable verification of the server certificate during database connection, download the [certificate authority (CA)](#x2016383){: term} file from the **Overview** page of the service dashboard, and copy it to the appropriate directory.
 
-The CA file you download from the dashboard contains root and intermediate certificates, which are both required for certificate validation.
+The CA file that you download from the dashboard contains root and intermediate certificates, which are both required for certificate validation.
 {: note}
 
 #### Using mongo shell
@@ -137,7 +206,7 @@ The CA file you download from the dashboard contains root and intermediate certi
 To use the mongo shell to connect to your databases, run the following command. You can copy the command from the service dashboard. For more information about the mongo shell, see the [mongo shell documentation](https://docs.mongodb.com/manual/mongo/){: external}.
 
 ```
-# mongo 'mongodb://<host_name_1>:<port_1>,\
+mongo 'mongodb://<host_name_1>:<port_1>,\
 <host_name_2>:<port_2>,\
 <host_name_3>:<port_3>/admin?replicaSet=<cluster_name>' \
 --tls --username <user_name> --password <password> --tlsCAFile <CAFile>
