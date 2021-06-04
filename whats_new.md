@@ -96,7 +96,7 @@ subcollection: hyper-protect-dbaas-for-mongodb
 # Release notes
 {: #what-new}
 
-Use these release notes to learn about the latest updates to {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}} that are grouped by date.
+Use these release notes to learn about the latest updates to {{site.data.keyword.cloud}} {{site.data.keyword.ihsdbaas_mongodb_full}}. The updates are grouped by date.
 {: shortdesc}
 
 ## 3 June 2021
