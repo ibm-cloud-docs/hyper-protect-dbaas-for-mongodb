@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2021
-lastupdated: "2021-06-04"
+lastupdated: "2021-06-07"
 
 keywords: access token, "{{site.data.keyword.ihsdbaas_full}} APIs", API key
 
@@ -260,6 +260,8 @@ Find what you are looking for in the compilation of topics that are available in
 * [Creating a service instance from the CLI](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#cli-create-service)
 
 * [Creating a service instance with the API](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#api-create-service)
+
+* [Creating a service instance with Terraform](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#terraform-create-service)
 
 * [What's next](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-create-service#create-connect)
 
