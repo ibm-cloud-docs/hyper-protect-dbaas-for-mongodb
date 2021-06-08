@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2021
-lastupdated: "2021-06-07"
+lastupdated: "2021-06-08"
 
 keywords: access token, "{{site.data.keyword.ihsdbaas_full}} APIs", API key
 
@@ -171,6 +171,8 @@ Find what you are looking for in the compilation of topics that are available in
 
 [Release notes](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new)
 
+* [8 June 2021](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#8-june-2021)
+
 * [3 June 2021](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#june-2021)
 
 * [7 April 2021](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-what-new#apr-2021)
@@ -245,6 +247,17 @@ Find what you are looking for in the compilation of topics that are available in
 * [Setting up authentication](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-api-setup#api-auth)
 
 * [General instructions for using the APIs](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-api-setup#gen_inst_mgr_apis)
+
+
+## Setting up Terraform for Hyper Protect DBaaS
+{: #sitemap_setting_up_terraform_for_hyper_protect_dbaas}
+
+
+[Setting up Terraform for Hyper Protect DBaaS](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-terraform-setup)
+
+* [Step 1. Install the Terraform CLI and configure the IBM Cloud Provider plug-in](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-terraform-setup#setup-configure)
+
+* [Step 2. Work with {{site.data.keyword.ihsdbaas_mongodb_full}} resources in Terraform](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-terraform-setup#work-with-dbaas-resources)
 
 
 ## Creating a service instance
